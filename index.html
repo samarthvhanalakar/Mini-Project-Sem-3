@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5f0">
+  <title>StudySphere | Learn with intent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/gamify.css">
+<link rel="stylesheet" href="css/login.css">
+<script src="js/app.js" defer></script>
+<script src="js/gamify.js" defer></script>
+</head>
+<body>
+  <div id="authScreen" class="auth-screen" hidden>
+    <form id="authForm" class="auth-panel">
+      <a class="brand auth-brand" href="#"><span class="brand-mark">S</span><span>Study<span class="brand-light">Sphere</span></span></a>
+      <p class="eyebrow">YOUR LEARNING SPACE</p>
+      <h1 id="authTitle">Welcome back.</h1>
+      <p class="muted">Sign in to pick up where your learning left off.</p>
+      <label>Name <input id="authName" autocomplete="name" placeholder="Your name" hidden></label>
+      <label>Email address <input id="authEmail" type="email" autocomplete="email" placeholder="you@college.edu" required></label>
+      <label>Password <input id="authPassword" type="password" autocomplete="current-password" minlength="4" placeholder="At least 4 characters" required></label>
+      <label id="roleField" class="role-field">I am a <select id="authRole"><option value="student">Student</option><option value="teacher">Teacher</option></select></label>
+      <button class="button button-primary button-wide" type="submit" id="authSubmit">Sign in</button>
+      <p id="authMessage" class="form-message" aria-live="polite"></p>
+      <p class="auth-switch"><span id="authSwitchPrompt">New to StudySphere?</span> <button type="button" class="text-button" id="authSwitch">Create an account</button></p>
+    </form>
+    <div class="auth-aside"><div class="aside-note"><span class="eyebrow">STUDY WITH PURPOSE</span><h2>Small steps.<br>Lasting understanding.</h2><p>A calm space to practise, reflect and make your next study session count.</p><div class="aside-stamp">01 <span>Learn at your pace</span></div></div></div>
+  </div>
+
+  <div id="appShell" class="app-shell" hidden>
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard" aria-label="StudySphere home"><span class="brand-mark">S</span><span>Study<span class="brand-light">Sphere</span></span></a>
+      <div class="workspace-label">WORKSPACE</div>
+      <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+        <button class="nav-item active student-only" data-view="dashboard"><span class="nav-icon">⌂</span>Dashboard</button>
+        <button class="nav-item student-only" data-view="diagnostic"><span class="nav-icon">▤</span>Diagnostic Room</button>
+        <button class="nav-item student-only" data-view="performance"><span class="nav-icon">◷</span>Performance</button>
+        <button class="nav-item student-only" data-view="plan"><span class="nav-icon">▦</span>Study plan</button>
+        <button class="nav-item student-only" data-view="resources"><span class="nav-icon">↗</span>Resources</button>
+        <button class="nav-item teacher-only" data-view="teacher" hidden><span class="nav-icon">▣</span>Teacher overview</button>
+        <button class="nav-item teacher-only" data-view="review" hidden><span class="nav-icon">✓</span>Question review <span class="nav-count" id="pendingCount">0</span></button>
+      </nav>
+      <div class="sidebar-bottom"><div class="sidebar-tip"><span class="tip-icon">✳</span><strong>Keep your rhythm</strong><p>Consistent practice beats last-minute cramming.</p></div><button class="profile-chip" id="profileButton"><span class="avatar" id="avatarInitials">ST</span><span class="profile-copy"><strong id="profileName">Student</strong><small id="profileRole">Student account</small></span><span class="profile-more">···</span></button></div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar"><button class="mobile-menu" id="mobileMenu" aria-label="Open navigation">☰</button><div class="breadcrumb"><span>Workspace</span><span class="crumb-slash">/</span><strong id="pageName">Dashboard</strong></div><div class="top-actions"><span class="date-label" id="todayLabel"></span><button class="icon-button" id="signOut" title="Sign out" aria-label="Sign out">↪</button></div></header>
+      <div class="content-area">
+        <section class="view active" id="view-dashboard">
+          <div class="page-heading"><div><p class="eyebrow" id="welcomeEyebrow">MONDAY, OCTOBER 17</p><h1 id="welcomeTitle">Good morning.</h1><p class="muted">A little focused assessment goes a long way.</p></div><button class="button button-primary" data-go="diagnostic"><span>＋</span> Start a diagnostic</button></div>
+          <div class="stat-grid">
+            <article class="stat-card accent-mint"><div class="stat-head"><span>Quizzes completed</span><span class="stat-symbol">✓</span></div><strong class="stat-number" id="statQuizzes">0</strong><small>Completed attempts</small></article>
+            <article class="stat-card accent-yellow"><div class="stat-head"><span>Average accuracy</span><span class="stat-symbol">◎</span></div><strong class="stat-number" id="statAccuracy">—</strong><small>Across submitted answers</small></article>
+            <article class="stat-card accent-coral"><div class="stat-head"><span>Questions answered</span><span class="stat-symbol">✎</span></div><strong class="stat-number" id="statAnswered">0</strong><small>Across all attempts</small></article>
+          </div>
+          <div class="dashboard-grid"><article class="panel topic-panel"><div class="panel-heading"><div><p class="eyebrow">WHERE YOU STAND</p><h2>Topic accuracy</h2></div><button class="quiet-link" data-go="performance">View analysis <span>→</span></button></div><div id="dashboardTopics" class="topic-bars"></div></article>
+            <article class="panel next-panel"><div class="panel-heading"><div><p class="eyebrow">UP NEXT</p><h2>Your study focus</h2></div><span class="sun-icon">✳</span></div><div id="dashboardFocus" class="focus-content"></div><button class="button button-outline button-wide" data-go="plan">Open study plan <span>→</span></button></article></div>
+          <div class="section-heading"><div><p class="eyebrow">RECENT WORK</p><h2>Recent attempts</h2></div><button class="quiet-link" data-go="performance">See all <span>→</span></button></div><div id="recentAttempts" class="attempt-list"></div>
+        </section>
+
+        <section class="view" id="view-diagnostic">
+          <div class="page-heading"><div><p class="eyebrow">DIAGNOSTIC ROOM</p><h1>Find your learning baseline.</h1><p class="muted">Choose a DSGT topic to assess your understanding across three difficulty levels.</p></div></div>
+          <div id="diagnosticSetup" class="panel setup-panel diagnostic-setup"><div class="setup-title"><span class="step-number">15</span><div><h2>Build your assessment</h2><p class="muted">A balanced set of 15 questions, sampled from the selected topic.</p></div></div><div class="setup-fields"><label>Subject<select id="diagnosticSubject"><option value="dsgt">DSGT (Discrete Structures and Graph Theory)</option></select></label><label>Topic<select id="diagnosticTopic"><option value="">Loading topics…</option></select></label></div><div class="setup-footer"><span id="diagnosticAvailability" class="muted" aria-live="polite">Loading topic availability…</span><button class="button button-primary" id="startDiagnostic">Begin assessment <span>→</span></button></div><p id="diagnosticSetupMessage" class="form-message" aria-live="polite"></p></div>
+          <div id="quizStage" class="quiz-stage" hidden></div>
+          <div id="quizResult" class="panel result-panel" hidden></div>
+        </section>
+
+        <section class="view" id="view-performance"><div class="page-heading"><div><p class="eyebrow">YOUR LEARNING, IN CONTEXT</p><h1>Performance</h1><p class="muted">Patterns from your completed practice, not guesses.</p></div></div><div class="stat-grid compact-stats"><article class="stat-card"><div class="stat-head"><span>Completed quizzes</span><span class="stat-symbol">✓</span></div><strong class="stat-number" id="perfQuizzes">0</strong></article><article class="stat-card"><div class="stat-head"><span>Overall accuracy</span><span class="stat-symbol">◎</span></div><strong class="stat-number" id="perfAccuracy">—</strong></article><article class="stat-card"><div class="stat-head"><span>Strong topics</span><span class="stat-symbol">↗</span></div><strong class="stat-number" id="strongCount">0</strong></article><article class="stat-card"><div class="stat-head"><span>Needs attention</span><span class="stat-symbol">⌁</span></div><strong class="stat-number" id="weakCount">0</strong></article></div><article class="panel performance-panel"><div class="panel-heading"><div><p class="eyebrow">TOPIC BREAKDOWN</p><h2>Accuracy by topic</h2></div><span class="legend"><i></i> Correct answers</span></div><div id="performanceTopics" class="topic-bars large-bars"></div></article><div class="section-heading"><div><p class="eyebrow">HISTORY</p><h2>Quiz attempts</h2></div></div><div id="allAttempts" class="attempt-list"></div></section>
+
+        <section class="view" id="view-plan"><div class="page-heading"><div><p class="eyebrow">A PLAN THAT ADAPTS</p><h1>Study plan</h1><p class="muted">Turn your available time into a practical next step.</p></div></div><div class="plan-layout"><article class="panel plan-input"><div class="panel-heading"><div><p class="eyebrow">YOUR CONSTRAINTS</p><h2>Set your schedule</h2></div><span class="sun-icon">◷</span></div><form id="planForm"><label>Exam date<input id="examDate" type="date" required></label><label>Available study time <span class="inline-unit"><input id="studyHours" type="number" min="1" max="12" value="2" required><small>hours per day</small></span></label><label>Topics in your syllabus<select id="syllabusSubject"></select></label><div id="syllabusTopics" class="check-list"></div><button class="button button-primary button-wide" type="submit">Generate my plan <span>→</span></button></form></article><article class="panel generated-plan"><div class="panel-heading"><div><p class="eyebrow">YOUR NEXT STEPS</p><h2>Recommended focus</h2></div></div><div id="studyPlanOutput" class="plan-output"></div></article></div></section>
+
+        <section class="view" id="view-resources"><div class="page-heading"><div><p class="eyebrow">YOUR STUDY SHELF</p><h1>Learning resources</h1><p class="muted">Keep useful references in one easy-to-reach place.</p></div><button class="button button-primary" id="addResourceButton"><span>＋</span> Add resource</button></div><label class="resource-search-label" for="resourceSearch">Search books by title or author</label><input id="resourceSearch" class="resource-search" type="search" placeholder="Search books by title or author…" autocomplete="off"><div class="resource-filters" role="group" aria-label="Filter resources by subject"><button class="filter-pill active" data-resource-filter="dsgt" aria-pressed="true">DSGT</button></div><div id="resourceList" class="resource-grid" aria-live="polite"></div></section>
+
+        <section class="view" id="view-teacher"><div class="page-heading"><div><p class="eyebrow">TEACHER WORKSPACE</p><h1>Question bank</h1><p class="muted">Review bank questions and keep student practice accurate.</p></div><button class="button button-outline" data-go="review">Review questions <span>→</span></button></div><div class="stat-grid compact-stats"><article class="stat-card accent-mint"><div class="stat-head"><span>Available to students</span><span class="stat-symbol">✓</span></div><strong class="stat-number" id="teacherApproved">0</strong></article><article class="stat-card accent-yellow"><div class="stat-head"><span>Awaiting review</span><span class="stat-symbol">◷</span></div><strong class="stat-number" id="teacherPending">0</strong></article><article class="stat-card accent-coral"><div class="stat-head"><span>Rejected</span><span class="stat-symbol">×</span></div><strong class="stat-number" id="teacherRejected">0</strong></article></div><article class="panel teacher-summary"><p class="eyebrow">REVIEW ACTIVITY</p><h2>Question quality, in your hands.</h2><p class="muted">Edits and approval decisions are saved in this browser. Students only see questions marked approved.</p><button class="button button-primary" data-go="review">Open review queue</button></article></section>
+
+        <section class="view" id="view-review"><div class="page-heading"><div><p class="eyebrow">TEACHER WORKSPACE / REVIEW</p><h1>Question review</h1><p class="muted">Edit question details, then approve or reject each item.</p></div><div class="review-filter"><select id="reviewFilter"><option value="pending">Awaiting review</option><option value="approved">Approved</option><option value="rejected">Rejected</option><option value="all">All questions</option></select></div></div><div id="reviewList" class="review-list"></div></section>
+      </div>
+    </main>
+  </div>
+
+  <dialog id="resourceDialog" class="modal"><form method="dialog" id="resourceForm"><div class="modal-heading"><div><p class="eyebrow">STUDY SHELF</p><h2>Add a resource</h2></div><button class="icon-button close-modal" value="cancel" aria-label="Close">×</button></div><label>Resource title<input id="resourceTitle" required maxlength="90" placeholder="e.g. Graph theory lecture notes"></label><label>Link<input id="resourceUrl" type="url" required placeholder="https://example.com/resource"></label><label>Subject<select id="resourceSubject" required></select></label><label>Notes <span class="optional">Optional</span><textarea id="resourceNotes" rows="3" maxlength="240" placeholder="What makes this useful?"></textarea></label><p id="resourceMessage" class="form-message" aria-live="polite"></p><div class="modal-actions"><button class="button button-outline" value="cancel">Cancel</button><button class="button button-primary" id="saveResource" value="default">Save resource</button></div></form></dialog>
+  <dialog id="quitAssessmentDialog" class="modal confirm-modal"><div class="modal-heading"><div><p class="eyebrow">ASSESSMENT IN PROGRESS</p><h2>Quit this assessment?</h2></div></div><p>Are you sure you want to quit this assessment? Your current attempt will be cancelled.</p><div class="modal-actions"><button class="button button-outline" type="button" id="continueAssessment">Continue Assessment</button><button class="button button-primary" type="button" id="confirmQuit">Confirm Quit</button></div></dialog>
+  <dialog id="questionDialog" class="modal question-modal"><form method="dialog" id="questionEditForm"><div class="modal-heading"><div><p class="eyebrow">EDIT QUESTION</p><h2>Update question details</h2></div><button class="icon-button close-modal" value="cancel" aria-label="Close">×</button></div><input id="editQuestionId" type="hidden"><label>Question<textarea id="editQuestionText" rows="3" required></textarea></label><div id="editOptions" class="edit-options"></div><label>Explanation<textarea id="editExplanation" rows="3"></textarea></label><div class="modal-actions"><button class="button button-outline" value="cancel">Cancel</button><button class="button button-primary" id="saveQuestionEdit" value="default">Save changes</button></div></form></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

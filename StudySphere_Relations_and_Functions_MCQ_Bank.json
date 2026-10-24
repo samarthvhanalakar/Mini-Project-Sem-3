@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "RF001",
+    "level": "Easy",
+    "topic": "Set theory",
+    "question": "If A={1,2,3} and B={3,4}, what is A ∩ B?",
+    "options": {
+      "A": "{1,2,3,4}",
+      "B": "{3}",
+      "C": "{1,2}",
+      "D": "∅"
+    },
+    "correct_answer": "B",
+    "correct_text": "{3}",
+    "explanation": "The intersection contains elements common to both sets."
+  },
+  {
+    "id": "RF002",
+    "level": "Easy",
+    "topic": "Set theory",
+    "question": "If A={a,b} and B={1,2}, how many elements are in A × B?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "correct_answer": "C",
+    "correct_text": "4",
+    "explanation": "The Cartesian product has |A|×|B|=2×2=4 ordered pairs."
+  },
+  {
+    "id": "RF003",
+    "level": "Easy",
+    "topic": "Set theory",
+    "question": "Which set is a subset of every set A?",
+    "options": {
+      "A": "A",
+      "B": "∅",
+      "C": "A×A",
+      "D": "The universal set"
+    },
+    "correct_answer": "B",
+    "correct_text": "∅",
+    "explanation": "The empty set is a subset of every set."
+  },
+  {
+    "id": "RF004",
+    "level": "Easy",
+    "topic": "Set theory",
+    "question": "If A={1,2} and B={2,3}, what is A ∪ B?",
+    "options": {
+      "A": "{2}",
+      "B": "{1,2,3}",
+      "C": "{1,3}",
+      "D": "∅"
+    },
+    "correct_answer": "B",
+    "correct_text": "{1,2,3}",
+    "explanation": "The union contains every element in either set, without duplicates."
+  },
+  {
+    "id": "RF005",
+    "level": "Easy",
+    "topic": "Set theory",
+    "question": "If |A|=5, how many subsets does A have?",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "25",
+      "D": "32"
+    },
+    "correct_answer": "D",
+    "correct_text": "32",
+    "explanation": "A set with n elements has 2ⁿ subsets; 2⁵=32."
+  },
+  {
+    "id": "RF006",
+    "level": "Easy",
+    "topic": "Set theory",
+    "question": "Which ordered pair belongs to A×B if A={x,y}, B={1,2}?",
+    "options": {
+      "A": "(1,x)",
+      "B": "(x,1)",
+      "C": "(1,1) only",
+      "D": "(x,y)"
+    },
+    "correct_answer": "B",
+    "correct_text": "(x,1)",
+    "explanation": "An ordered pair in A×B has its first element from A and second from B."
+  },
+  {
+    "id": "RF007",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "A relation from A to B is any subset of:",
+    "options": {
+      "A": "A∪B",
+      "B": "A×B",
+      "C": "B×A only",
+      "D": "A∩B"
+    },
+    "correct_answer": "B",
+    "correct_text": "A×B",
+    "explanation": "Relations from A to B consist of ordered pairs in A×B."
+  },
+  {
+    "id": "RF008",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "A relation R on A is reflexive if:",
+    "options": {
+      "A": "(a,a)∈R for every a∈A",
+      "B": "(a,b)∈R implies (b,a)∈R",
+      "C": "(a,b),(b,c)∈R implies (a,c)∈R",
+      "D": "No pair is in R"
+    },
+    "correct_answer": "A",
+    "correct_text": "(a,a)∈R for every a∈A",
+    "explanation": "Reflexivity requires every element to relate to itself."
+  },
+  {
+    "id": "RF009",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "A relation R is symmetric if:",
+    "options": {
+      "A": "(a,a)∈R",
+      "B": "(a,b)∈R implies (b,a)∈R",
+      "C": "(a,b) and (b,c) imply (a,c)",
+      "D": "Every pair is present"
+    },
+    "correct_answer": "B",
+    "correct_text": "(a,b)∈R implies (b,a)∈R",
+    "explanation": "Symmetry requires reversing every related pair."
+  },
+  {
+    "id": "RF010",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "A relation R is transitive if:",
+    "options": {
+      "A": "(a,b)∈R implies (b,a)∈R",
+      "B": "(a,a)∈R always",
+      "C": "(a,b),(b,c)∈R imply (a,c)∈R",
+      "D": "Every element has exactly one image"
+    },
+    "correct_answer": "C",
+    "correct_text": "(a,b),(b,c)∈R imply (a,c)∈R",
+    "explanation": "Transitivity links two consecutive pairs to a third pair."
+  },
+  {
+    "id": "RF011",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "On A={1,2}, which relation is reflexive?",
+    "options": {
+      "A": "{(1,1)}",
+      "B": "{(1,1),(2,2)}",
+      "C": "{(1,2),(2,1)}",
+      "D": "∅"
+    },
+    "correct_answer": "B",
+    "correct_text": "{(1,1),(2,2)}",
+    "explanation": "A reflexive relation on {1,2} must contain both diagonal pairs."
+  },
+  {
+    "id": "RF012",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "Which relation on a set is always symmetric?",
+    "options": {
+      "A": "Less than",
+      "B": "Proper subset",
+      "C": "Equality",
+      "D": "Divides"
+    },
+    "correct_answer": "C",
+    "correct_text": "Equality",
+    "explanation": "If a=b, then b=a; equality is symmetric."
+  },
+  {
+    "id": "RF013",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "Which property is required for an equivalence relation?",
+    "options": {
+      "A": "Reflexive only",
+      "B": "Symmetric and transitive only",
+      "C": "Reflexive, symmetric, and transitive",
+      "D": "Antisymmetric only"
+    },
+    "correct_answer": "C",
+    "correct_text": "Reflexive, symmetric, and transitive",
+    "explanation": "An equivalence relation must satisfy all three properties."
+  },
+  {
+    "id": "RF014",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "A relation is antisymmetric when:",
+    "options": {
+      "A": "aRb implies bRa",
+      "B": "aRb and bRa imply a=b",
+      "C": "aRa for all a",
+      "D": "aRb and bRc imply aRc"
+    },
+    "correct_answer": "B",
+    "correct_text": "aRb and bRa imply a=b",
+    "explanation": "Antisymmetry allows mutual relatedness only when the elements are equal."
+  },
+  {
+    "id": "RF015",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "On integers, the relation aRb iff a=b is:",
+    "options": {
+      "A": "Reflexive, symmetric, and transitive",
+      "B": "Not reflexive",
+      "C": "Not symmetric",
+      "D": "Not transitive"
+    },
+    "correct_answer": "A",
+    "correct_text": "Reflexive, symmetric, and transitive",
+    "explanation": "Equality has all three properties of an equivalence relation."
+  },
+  {
+    "id": "RF016",
+    "level": "Easy",
+    "topic": "Relations",
+    "question": "A relation on A={1,2,3} is represented by a 3×3 matrix. What does entry m₂₃=1 mean?",
+    "options": {
+      "A": "(3,2)∈R",
+      "B": "(2,3)∈R",
+      "C": "(2,2)∈R",
+      "D": "(3,3)∈R"
+    },
+    "correct_answer": "B",
+    "correct_text": "(2,3)∈R",
+    "explanation": "Row i and column j indicate whether (i,j) belongs to the relation."
+  },
+  {
+    "id": "RF017",
+    "level": "Easy",
+    "topic": "Closures",
+    "question": "The reflexive closure of a relation is obtained by adding any missing:",
+    "options": {
+      "A": "Reverse pairs",
+      "B": "Diagonal pairs (a,a)",
+      "C": "All possible pairs",
+      "D": "Transitive pairs only"
+    },
+    "correct_answer": "B",
+    "correct_text": "Diagonal pairs (a,a)",
+    "explanation": "Reflexive closure adds diagonal pairs for every element of the set."
+  },
+  {
+    "id": "RF018",
+    "level": "Easy",
+    "topic": "Closures",
+    "question": "The symmetric closure of R is:",
+    "options": {
+      "A": "R∪R⁻¹",
+      "B": "R∩R⁻¹",
+      "C": "R² only",
+      "D": "A×A"
+    },
+    "correct_answer": "A",
+    "correct_text": "R∪R⁻¹",
+    "explanation": "Add each reverse pair; equivalently take R union its inverse relation."
+  },
+  {
+    "id": "RF019",
+    "level": "Easy",
+    "topic": "Warshall's algorithm",
+    "question": "Warshall's algorithm is commonly used to find:",
+    "options": {
+      "A": "Inverse of a function",
+      "B": "Transitive closure of a relation",
+      "C": "Cardinality of a set",
+      "D": "Equivalence class only"
+    },
+    "correct_answer": "B",
+    "correct_text": "Transitive closure of a relation",
+    "explanation": "Warshall's algorithm computes reachability/transitive closure from a Boolean matrix."
+  },
+  {
+    "id": "RF020",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "A function f:A→B assigns each element of A:",
+    "options": {
+      "A": "At least two elements of B",
+      "B": "Exactly one element of B",
+      "C": "No element of B",
+      "D": "Exactly one element of A"
+    },
+    "correct_answer": "B",
+    "correct_text": "Exactly one element of B",
+    "explanation": "Every domain element must have exactly one output in the codomain."
+  },
+  {
+    "id": "RF021",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "In f:A→B, A is the:",
+    "options": {
+      "A": "Codomain",
+      "B": "Range",
+      "C": "Domain",
+      "D": "Image only"
+    },
+    "correct_answer": "C",
+    "correct_text": "Domain",
+    "explanation": "The domain is the set of allowed inputs."
+  },
+  {
+    "id": "RF022",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "A function is injective if:",
+    "options": {
+      "A": "Every codomain element is used",
+      "B": "Different inputs have different outputs",
+      "C": "Every input has two outputs",
+      "D": "Its domain equals its range"
+    },
+    "correct_answer": "B",
+    "correct_text": "Different inputs have different outputs",
+    "explanation": "Injectivity means f(a)=f(b) implies a=b."
+  },
+  {
+    "id": "RF023",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "A function is surjective if:",
+    "options": {
+      "A": "Every element of codomain is an output",
+      "B": "Every input has a different output",
+      "C": "It has no inverse relation",
+      "D": "Domain is empty"
+    },
+    "correct_answer": "A",
+    "correct_text": "Every element of codomain is an output",
+    "explanation": "Surjectivity means the range equals the codomain."
+  },
+  {
+    "id": "RF024",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "A function that is both injective and surjective is called:",
+    "options": {
+      "A": "Constant",
+      "B": "Bijective",
+      "C": "Many-to-one",
+      "D": "Identity only"
+    },
+    "correct_answer": "B",
+    "correct_text": "Bijective",
+    "explanation": "A bijection is both one-to-one and onto."
+  },
+  {
+    "id": "RF025",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "The identity function on A maps each x to:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "x",
+      "D": "−x"
+    },
+    "correct_answer": "C",
+    "correct_text": "x",
+    "explanation": "The identity function satisfies I_A(x)=x."
+  },
+  {
+    "id": "RF026",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "If f(x)=2x, what is f(3)?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "8",
+      "D": "9"
+    },
+    "correct_answer": "B",
+    "correct_text": "6",
+    "explanation": "Substitute x=3: f(3)=2×3=6."
+  },
+  {
+    "id": "RF027",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "If f(x)=x+1 and g(x)=2x, what is (f∘g)(x)?",
+    "options": {
+      "A": "2x+1",
+      "B": "2x+2",
+      "C": "x+3",
+      "D": "2x−1"
+    },
+    "correct_answer": "A",
+    "correct_text": "2x+1",
+    "explanation": "f(g(x))=f(2x)=2x+1."
+  },
+  {
+    "id": "RF028",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "If f(x)=x−4, its inverse is:",
+    "options": {
+      "A": "x−4",
+      "B": "x+4",
+      "C": "4−x",
+      "D": "1/(x−4)"
+    },
+    "correct_answer": "B",
+    "correct_text": "x+4",
+    "explanation": "Set y=x−4, swap x and y, then solve y=x+4."
+  },
+  {
+    "id": "RF029",
+    "level": "Easy",
+    "topic": "Functions",
+    "question": "If f:A→B is bijective, then its inverse:",
+    "options": {
+      "A": "Is a function from B to A",
+      "B": "Must map A to A",
+      "C": "Does not exist",
+      "D": "Is always the identity"
+    },
+    "correct_answer": "A",
+    "correct_text": "Is a function from B to A",
+    "explanation": "A bijection has a well-defined inverse function f⁻¹:B→A."
+  },
+  {
+    "id": "RF030",
+    "level": "Easy",
+    "topic": "Equivalence classes",
+    "question": "For equality on A, the equivalence class of a is:",
+    "options": {
+      "A": "∅",
+      "B": "{a}",
+      "C": "A always",
+      "D": "A\\{a}"
+    },
+    "correct_answer": "B",
+    "correct_text": "{a}",
+    "explanation": "Under equality, only a is equivalent to itself."
+  },
+  {
+    "id": "RF031",
+    "level": "Medium",
+    "topic": "Set theory",
+    "question": "Let A={1,2,3,4}, B={3,4,5}. Find A\\B.",
+    "options": {
+      "A": "{1,2}",
+      "B": "{3,4}",
+      "C": "{1,2,5}",
+      "D": "{1,2,3,4,5}"
+    },
+    "correct_answer": "A",
+    "correct_text": "{1,2}",
+    "explanation": "A\\B contains elements in A that are not in B."
+  },
+  {
+    "id": "RF032",
+    "level": "Medium",
+    "topic": "Set theory",
+    "question": "If |A|=3 and |B|=4, what is |A×B|?",
+    "options": {
+      "A": "7",
+      "B": "12",
+      "C": "16",
+      "D": "64"
+    },
+    "correct_answer": "B",
+    "correct_text": "12",
+    "explanation": "The number of ordered pairs is |A||B|=3×4=12."
+  },
+  {
+    "id": "RF033",
+    "level": "Medium",
+    "topic": "Set theory",
+    "question": "If A={1,2,3} and B={a,b}, which is A×B?",
+    "options": {
+      "A": "{(a,1),(b,2)}",
+      "B": "{(1,a),(1,b),(2,a),(2,b),(3,a),(3,b)}",
+      "C": "{1,2,3,a,b}",
+      "D": "{(1,1),(2,2),(3,3)}"
+    },
+    "correct_answer": "B",
+    "correct_text": "{(1,a),(1,b),(2,a),(2,b),(3,a),(3,b)}",
+    "explanation": "List every ordered pair with first coordinate in A and second in B."
+  },
+  {
+    "id": "RF034",
+    "level": "Medium",
+    "topic": "Set theory",
+    "question": "A set has 4 elements. How many proper subsets does it have?",
+    "options": {
+      "A": "4",
+      "B": "8",
+      "C": "15",
+      "D": "16"
+    },
+    "correct_answer": "C",
+    "correct_text": "15",
+    "explanation": "There are 2⁴=16 subsets; excluding the set itself leaves 15 proper subsets."
+  },
+  {
+    "id": "RF035",
+    "level": "Medium",
+    "topic": "Relations",
+    "question": "On A={1,2,3}, R={(1,1),(2,2),(3,3),(1,2),(2,1)}. Is R reflexive?",
+    "options": {
+      "A": "Yes",
+      "B": "No, because (3,3) is missing",
+      "C": "No, because it is symmetric",
+      "D": "Cannot determine"
+    },
+    "correct_answer": "A",
+    "correct_text": "Yes",
+    "explanation": "All three diagonal pairs are present."
+  },
+  {
+    "id": "RF036",
+    "level": "Medium",
+    "topic": "Relations",
+    "question": "For R={(1,2),(2,1)} on {1,2}, which property fails?",
+    "options": {
+      "A": "Symmetry",
+      "B": "Reflexivity",
+      "C": "Both pairs reverse each other",
+      "D": "None of these"
+    },
+    "correct_answer": "B",
+    "correct_text": "Reflexivity",
+    "explanation": "It is symmetric, but missing (1,1) and (2,2), so it is not reflexive."
+  },
+  {
+    "id": "RF037",
+    "level": "Medium",
+    "topic": "Relations",
+    "question": "On integers, define aRb iff a−b is even. Which is true?",
+    "options": {
+      "A": "It is an equivalence relation",
+      "B": "It is not reflexive",
+      "C": "It is not symmetric",
+      "D": "It is not transitive"
+    },
+    "correct_answer": "A",
+    "correct_text": "It is an equivalence relation",
+    "explanation": "Difference is even for a=a, is symmetric under sign change, and is transitive under addition."
+  },
+  {
+    "id": "RF038",
+    "level": "Medium",
+    "topic": "Relations",
+    "question": "On positive integers, define aRb iff a divides b. Which property does it fail?",
+    "options": {
+      "A": "Reflexivity",
+      "B": "Transitivity",
+      "C": "Antisymmetry",
+      "D": "Symmetry"
+    },
+    "correct_answer": "D",
+    "correct_text": "Symmetry",
+    "explanation": "If a divides b, b need not divide a; e.g. 2|4 but 4∤2."
+  },
+  {
+    "id": "RF039",
+    "level": "Medium",
+    "topic": "Relations",
+    "question": "On real numbers, define xRy iff x≤y. Which properties hold?",
+    "options": {
+      "A": "Reflexive, antisymmetric, transitive",
+      "B": "Symmetric and reflexive only",
+      "C": "Symmetric and transitive only",
+      "D": "Only transitive"
+    },
+    "correct_answer": "A",
+    "correct_text": "Reflexive, antisymmetric, transitive",
+    "explanation": "≤ is reflexive, antisymmetric, and transitive, but not symmetric."
+  },
+  {
+    "id": "RF040",
+    "level": "Medium",
+    "topic": "Relations",
+    "question": "A relation matrix has all diagonal entries 1. Which property does this guarantee?",
+    "options": {
+      "A": "Symmetry",
+      "B": "Transitivity",
+      "C": "Reflexivity",
+      "D": "Antisymmetry"
+    },
+    "correct_answer": "C",
+    "correct_text": "Reflexivity",
+    "explanation": "All diagonal entries are 1 exactly when every element relates to itself."
+  },
+  {
+    "id": "RF041",
+    "level": "Medium",
+    "topic": "Relations",
+    "question": "If R={(1,2),(2,3)}, which pair must be added to make R transitive on {1,2,3}?",
+    "options": {
+      "A": "(2,1)",
+      "B": "(1,3)",
+      "C": "(3,2)",
+      "D": "(3,1)"
+    },
+    "correct_answer": "B",
+    "correct_text": "(1,3)",
+    "explanation": "Since 1R2 and 2R3, transitivity requires 1R3."
+  },
+  {
+    "id": "RF042",
+    "level": "Medium",
+    "topic": "Closures",
+    "question": "If R={(a,b)} on A={a,b}, its symmetric closure is:",
+    "options": {
+      "A": "{(a,b)}",
+      "B": "{(a,b),(b,a)}",
+      "C": "{(a,a),(b,b)}",
+      "D": "A×A"
+    },
+    "correct_answer": "B",
+    "correct_text": "{(a,b),(b,a)}",
+    "explanation": "Add the reverse pair (b,a)."
+  },
+  {
+    "id": "RF043",
+    "level": "Medium",
+    "topic": "Closures",
+    "question": "For A={1,2}, R={(1,2)}, what is its reflexive closure?",
+    "options": {
+      "A": "{(1,2)}",
+      "B": "{(1,1),(2,2),(1,2)}",
+      "C": "A×A",
+      "D": "{(2,1),(1,2)}"
+    },
+    "correct_answer": "B",
+    "correct_text": "{(1,1),(2,2),(1,2)}",
+    "explanation": "Add both diagonal pairs."
+  },
+  {
+    "id": "RF044",
+    "level": "Medium",
+    "topic": "Closures",
+    "question": "For R={(1,2),(2,3)} on {1,2,3}, which pair is added by transitivity?",
+    "options": {
+      "A": "(3,1)",
+      "B": "(1,3)",
+      "C": "(2,1)",
+      "D": "(3,2)"
+    },
+    "correct_answer": "B",
+    "correct_text": "(1,3)",
+    "explanation": "The path 1→2→3 requires 1→3."
+  },
+  {
+    "id": "RF045",
+    "level": "Medium",
+    "topic": "Warshall's algorithm",
+    "question": "In Warshall's algorithm, what does updating reachability through intermediate vertex k mean?",
+    "options": {
+      "A": "Delete all edges from k",
+      "B": "Set reachability i→j if i→k and k→j are both reachable",
+      "C": "Set every matrix entry to 1",
+      "D": "Reverse all pairs"
+    },
+    "correct_answer": "B",
+    "correct_text": "Set reachability i→j if i→k and k→j are both reachable",
+    "explanation": "The Boolean update is W[i,j] = W[i,j] OR (W[i,k] AND W[k,j])."
+  },
+  {
+    "id": "RF046",
+    "level": "Medium",
+    "topic": "Warshall's algorithm",
+    "question": "For vertices 1,2,3 with edges 1→2 and 2→3, which new reachability appears in the transitive closure?",
+    "options": {
+      "A": "2→1",
+      "B": "3→1",
+      "C": "1→3",
+      "D": "3→2"
+    },
+    "correct_answer": "C",
+    "correct_text": "1→3",
+    "explanation": "A path from 1 to 3 exists through vertex 2."
+  },
+  {
+    "id": "RF047",
+    "level": "Medium",
+    "topic": "Warshall's algorithm",
+    "question": "If the Boolean adjacency matrix has W[1,2]=1 and W[2,3]=1, what can be set to 1 after considering vertex 2 as an intermediate?",
+    "options": {
+      "A": "W[3,1]",
+      "B": "W[1,3]",
+      "C": "W[2,1]",
+      "D": "W[3,2]"
+    },
+    "correct_answer": "B",
+    "correct_text": "W[1,3]",
+    "explanation": "The path 1→2→3 establishes reachability from 1 to 3."
+  },
+  {
+    "id": "RF048",
+    "level": "Medium",
+    "topic": "Equivalence classes",
+    "question": "On integers, aRb iff a≡b (mod 3). Which numbers belong to [1]?",
+    "options": {
+      "A": "…,−5,−2,1,4,7,…",
+      "B": "…,−4,−1,2,5,8,…",
+      "C": "All even integers",
+      "D": "Only 1"
+    },
+    "correct_answer": "A",
+    "correct_text": "…,−5,−2,1,4,7,…",
+    "explanation": "The class [1] consists of integers leaving remainder 1 modulo 3."
+  },
+  {
+    "id": "RF049",
+    "level": "Medium",
+    "topic": "Equivalence classes",
+    "question": "An equivalence relation partitions a nonempty set into:",
+    "options": {
+      "A": "Overlapping arbitrary subsets",
+      "B": "Disjoint equivalence classes whose union is the set",
+      "C": "Only singleton sets",
+      "D": "One class for each ordered pair"
+    },
+    "correct_answer": "B",
+    "correct_text": "Disjoint equivalence classes whose union is the set",
+    "explanation": "Equivalence classes form a partition of the underlying set."
+  },
+  {
+    "id": "RF050",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "Let f:{1,2,3}→{a,b} with f(1)=a, f(2)=b, f(3)=a. Which is true?",
+    "options": {
+      "A": "Injective and surjective",
+      "B": "Injective but not surjective",
+      "C": "Surjective but not injective",
+      "D": "Neither"
+    },
+    "correct_answer": "C",
+    "correct_text": "Surjective but not injective",
+    "explanation": "Both codomain elements are hit, but 1 and 3 share an output."
+  },
+  {
+    "id": "RF051",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "Let f:R→R be f(x)=3x−6. Is f bijective?",
+    "options": {
+      "A": "Yes",
+      "B": "No, not injective",
+      "C": "No, not surjective",
+      "D": "Only on positive reals"
+    },
+    "correct_answer": "A",
+    "correct_text": "Yes",
+    "explanation": "A nonzero-slope linear function on R is injective and reaches every real output."
+  },
+  {
+    "id": "RF052",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "If f(x)=x² from R to R, which is correct?",
+    "options": {
+      "A": "Injective and surjective",
+      "B": "Injective but not surjective",
+      "C": "Surjective but not injective",
+      "D": "Neither injective nor surjective"
+    },
+    "correct_answer": "D",
+    "correct_text": "Neither injective nor surjective",
+    "explanation": "f(1)=f(−1), so not injective; negative values are not outputs, so not surjective."
+  },
+  {
+    "id": "RF053",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "If f(x)=2x+1 and g(x)=x², find (f∘g)(x).",
+    "options": {
+      "A": "(2x+1)²",
+      "B": "2x²+1",
+      "C": "x²+2",
+      "D": "2x+1"
+    },
+    "correct_answer": "B",
+    "correct_text": "2x²+1",
+    "explanation": "f(g(x))=f(x²)=2x²+1."
+  },
+  {
+    "id": "RF054",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "If f(x)=x+2 and g(x)=3x, find (g∘f)(x).",
+    "options": {
+      "A": "3x+2",
+      "B": "3x+6",
+      "C": "3x²+2",
+      "D": "x+5"
+    },
+    "correct_answer": "B",
+    "correct_text": "3x+6",
+    "explanation": "g(f(x))=g(x+2)=3(x+2)=3x+6."
+  },
+  {
+    "id": "RF055",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "Let f(x)=2x−5. What is f⁻¹(x)?",
+    "options": {
+      "A": "(x−5)/2",
+      "B": "(x+5)/2",
+      "C": "2x+5",
+      "D": "5−2x"
+    },
+    "correct_answer": "B",
+    "correct_text": "(x+5)/2",
+    "explanation": "Set y=2x−5; swap variables and solve x=(y+5)/2."
+  },
+  {
+    "id": "RF056",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "If f(x)=x+1 and g(x)=x−1 on integers, what is (f∘g)(x)?",
+    "options": {
+      "A": "x−2",
+      "B": "x",
+      "C": "x+2",
+      "D": "1"
+    },
+    "correct_answer": "B",
+    "correct_text": "x",
+    "explanation": "f(g(x))=(x−1)+1=x."
+  },
+  {
+    "id": "RF057",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "For any function f:A→B, which identity is always valid where composition is defined?",
+    "options": {
+      "A": "f∘I_A=f",
+      "B": "I_A∘f=f for every codomain",
+      "C": "f∘f⁻¹ exists even if f is not bijective",
+      "D": "f is always onto"
+    },
+    "correct_answer": "A",
+    "correct_text": "f∘I_A=f",
+    "explanation": "Applying the identity on the domain before f leaves f unchanged."
+  },
+  {
+    "id": "RF058",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "If f:A→B is bijective, what is f⁻¹∘f?",
+    "options": {
+      "A": "I_B",
+      "B": "I_A",
+      "C": "f",
+      "D": "f⁻¹"
+    },
+    "correct_answer": "B",
+    "correct_text": "I_A",
+    "explanation": "f⁻¹(f(a))=a for every a∈A, so the composition is I_A."
+  },
+  {
+    "id": "RF059",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "If f(x)=x+4 and g(x)=2x, compare f∘g and g∘f.",
+    "options": {
+      "A": "They are always equal",
+      "B": "Both equal 2x+4",
+      "C": "f∘g=2x+4 and g∘f=2x+8",
+      "D": "Both equal x+6"
+    },
+    "correct_answer": "C",
+    "correct_text": "f∘g=2x+4 and g∘f=2x+8",
+    "explanation": "f(g(x))=2x+4, while g(f(x))=2(x+4)=2x+8."
+  },
+  {
+    "id": "RF060",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "A function f:A→B has |A|=5 and is injective. What is the minimum possible |B|?",
+    "options": {
+      "A": "1",
+      "B": "4",
+      "C": "5",
+      "D": "10"
+    },
+    "correct_answer": "C",
+    "correct_text": "5",
+    "explanation": "Five distinct inputs need five distinct outputs in B."
+  },
+  {
+    "id": "RF061",
+    "level": "Medium",
+    "topic": "Set theory",
+    "question": "If A⊆B and B⊆A, what follows?",
+    "options": {
+      "A": "A∩B=∅",
+      "B": "A=B",
+      "C": "A is a proper subset of B",
+      "D": "A×B=B×A"
+    },
+    "correct_answer": "B",
+    "correct_text": "A=B",
+    "explanation": "Mutual inclusion means the sets have exactly the same elements."
+  },
+  {
+    "id": "RF062",
+    "level": "Medium",
+    "topic": "Relations",
+    "question": "On A={1,2,3}, R={(1,1),(2,2),(3,3),(1,2),(2,1)}. Is R symmetric?",
+    "options": {
+      "A": "Yes",
+      "B": "No, because (1,2) lacks reverse",
+      "C": "No, because diagonal pairs exist",
+      "D": "Cannot determine"
+    },
+    "correct_answer": "A",
+    "correct_text": "Yes",
+    "explanation": "Every non-diagonal pair has its reverse, and diagonal pairs reverse to themselves."
+  },
+  {
+    "id": "RF063",
+    "level": "Medium",
+    "topic": "Relations",
+    "question": "Which property is not implied by being an equivalence relation?",
+    "options": {
+      "A": "Reflexivity",
+      "B": "Symmetry",
+      "C": "Transitivity",
+      "D": "Antisymmetry"
+    },
+    "correct_answer": "D",
+    "correct_text": "Antisymmetry",
+    "explanation": "An equivalence relation need not be antisymmetric; distinct elements can be equivalent."
+  },
+  {
+    "id": "RF064",
+    "level": "Medium",
+    "topic": "Closures",
+    "question": "If R is already reflexive, what does its reflexive closure change?",
+    "options": {
+      "A": "Adds all reverse pairs",
+      "B": "Adds all transitive pairs",
+      "C": "Nothing",
+      "D": "Makes it antisymmetric"
+    },
+    "correct_answer": "C",
+    "correct_text": "Nothing",
+    "explanation": "A reflexive relation already contains every required diagonal pair."
+  },
+  {
+    "id": "RF065",
+    "level": "Medium",
+    "topic": "Warshall's algorithm",
+    "question": "For a graph with edges 1→2, 2→3, 3→1, which vertices are reachable from vertex 1 in the transitive closure?",
+    "options": {
+      "A": "Only 2",
+      "B": "Only 3",
+      "C": "2 and 3, but not 1",
+      "D": "1, 2, and 3"
+    },
+    "correct_answer": "D",
+    "correct_text": "1, 2, and 3",
+    "explanation": "The directed cycle gives paths from 1 to every vertex, including a nonempty path back to 1."
+  },
+  {
+    "id": "RF066",
+    "level": "Medium",
+    "topic": "Equivalence classes",
+    "question": "If [a]=[b] under an equivalence relation, what must be true?",
+    "options": {
+      "A": "a=b always",
+      "B": "The two equivalence classes are identical",
+      "C": "The relation is not symmetric",
+      "D": "Both classes are empty"
+    },
+    "correct_answer": "B",
+    "correct_text": "The two equivalence classes are identical",
+    "explanation": "Equivalence classes that intersect are equal; a and b are equivalent."
+  },
+  {
+    "id": "RF067",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "If f:A→B and g:B→C are both injective, then g∘f is:",
+    "options": {
+      "A": "Always surjective",
+      "B": "Injective",
+      "C": "Constant",
+      "D": "Not a function"
+    },
+    "correct_answer": "B",
+    "correct_text": "Injective",
+    "explanation": "If g(f(a₁))=g(f(a₂)), injectivity of g and f gives a₁=a₂."
+  },
+  {
+    "id": "RF068",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "If f:A→B and g:B→C are both surjective, then g∘f is:",
+    "options": {
+      "A": "Surjective",
+      "B": "Injective",
+      "C": "Never defined",
+      "D": "Identity"
+    },
+    "correct_answer": "A",
+    "correct_text": "Surjective",
+    "explanation": "For each c∈C, surjectivity of g gives b, then surjectivity of f gives a mapping to b."
+  },
+  {
+    "id": "RF069",
+    "level": "Medium",
+    "topic": "Functions",
+    "question": "For f(x)=5x+10 on R, what is f⁻¹(0)?",
+    "options": {
+      "A": "−2",
+      "B": "0",
+      "C": "2",
+      "D": "10"
+    },
+    "correct_answer": "A",
+    "correct_text": "−2",
+    "explanation": "Solve 0=5x+10, giving x=−2."
+  },
+  {
+    "id": "RF070",
+    "level": "Hard",
+    "topic": "Set theory",
+    "question": "For finite sets A and B, |A∪B| equals:",
+    "options": {
+      "A": "|A|+|B|",
+      "B": "|A|+|B|−|A∩B|",
+      "C": "|A||B|",
+      "D": "|A∩B|−|A|−|B|"
+    },
+    "correct_answer": "B",
+    "correct_text": "|A|+|B|−|A∩B|",
+    "explanation": "Elements in the intersection are counted twice in |A|+|B|, so subtract them once."
+  },
+  {
+    "id": "RF071",
+    "level": "Hard",
+    "topic": "Set theory",
+    "question": "If |A|=6, |B|=5, and |A∩B|=2, find |A∪B|.",
+    "options": {
+      "A": "9",
+      "B": "11",
+      "C": "13",
+      "D": "30"
+    },
+    "correct_answer": "A",
+    "correct_text": "9",
+    "explanation": "|A∪B|=6+5−2=9."
+  },
+  {
+    "id": "RF072",
+    "level": "Hard",
+    "topic": "Relations",
+    "question": "On A={1,2,3}, R={(1,1),(2,2),(3,3),(1,2),(2,1),(2,3),(3,2)}. Is R transitive?",
+    "options": {
+      "A": "Yes",
+      "B": "No, because 1R2 and 2R3 but 1R3 is missing",
+      "C": "No, because it is reflexive",
+      "D": "Cannot tell"
+    },
+    "correct_answer": "B",
+    "correct_text": "No, because 1R2 and 2R3 but 1R3 is missing",
+    "explanation": "Transitivity requires (1,3) from 1R2 and 2R3, but (1,3) is absent."
+  },
+  {
+    "id": "RF073",
+    "level": "Hard",
+    "topic": "Relations",
+    "question": "On a nonempty set, if a relation is both symmetric and antisymmetric, what can be said about any pair aRb?",
+    "options": {
+      "A": "It forces a=b",
+      "B": "It forces a≠b",
+      "C": "It forces transitivity",
+      "D": "It forces the relation to be empty"
+    },
+    "correct_answer": "A",
+    "correct_text": "It forces a=b",
+    "explanation": "Symmetry gives bRa; antisymmetry then gives a=b."
+  },
+  {
+    "id": "RF074",
+    "level": "Hard",
+    "topic": "Relations",
+    "question": "On integers, define aRb iff a−b is divisible by 5. Which is the equivalence class [2]?",
+    "options": {
+      "A": "Integers congruent to 2 modulo 5",
+      "B": "All integers greater than 2",
+      "C": "Only {2}",
+      "D": "Integers divisible by 2"
+    },
+    "correct_answer": "A",
+    "correct_text": "Integers congruent to 2 modulo 5",
+    "explanation": "[2]={…,−8,−3,2,7,12,…}, all integers with remainder 2 modulo 5."
+  },
+  {
+    "id": "RF075",
+    "level": "Hard",
+    "topic": "Relations",
+    "question": "Let R be a relation on A. Which condition is sufficient for R to be an equivalence relation?",
+    "options": {
+      "A": "Reflexive and symmetric",
+      "B": "Symmetric and transitive",
+      "C": "Reflexive, symmetric, and transitive",
+      "D": "Reflexive and antisymmetric"
+    },
+    "correct_answer": "C",
+    "correct_text": "Reflexive, symmetric, and transitive",
+    "explanation": "All three properties are required; none of these three can be omitted in general."
+  },
+  {
+    "id": "RF076",
+    "level": "Hard",
+    "topic": "Relations",
+    "question": "On A={1,2,3}, R={(1,1),(2,2),(3,3),(1,2),(2,1)}. Which equivalence classes does R form?",
+    "options": {
+      "A": "{1,2} and {3}",
+      "B": "{1}, {2}, {3}",
+      "C": "{1,2,3}",
+      "D": "{1,3} and {2}"
+    },
+    "correct_answer": "A",
+    "correct_text": "{1,2} and {3}",
+    "explanation": "1 and 2 are related to each other, while 3 is only related to itself."
+  },
+  {
+    "id": "RF077",
+    "level": "Hard",
+    "topic": "Closures",
+    "question": "Let R={(1,2),(2,3)} on {1,2,3}. Which set is its transitive closure?",
+    "options": {
+      "A": "{(1,2),(2,3)}",
+      "B": "{(1,2),(2,3),(1,3)}",
+      "C": "{(1,1),(2,2),(3,3)}",
+      "D": "A×A"
+    },
+    "correct_answer": "B",
+    "correct_text": "{(1,2),(2,3),(1,3)}",
+    "explanation": "The only new transitive pair required is (1,3)."
+  },
+  {
+    "id": "RF078",
+    "level": "Hard",
+    "topic": "Closures",
+    "question": "For a relation R, which expression gives its reflexive closure on set A?",
+    "options": {
+      "A": "R∪{(a,a):a∈A}",
+      "B": "R∩R⁻¹",
+      "C": "R²",
+      "D": "A×A\\R"
+    },
+    "correct_answer": "A",
+    "correct_text": "R∪{(a,a):a∈A}",
+    "explanation": "Add all diagonal pairs for elements of A that are not already present."
+  },
+  {
+    "id": "RF079",
+    "level": "Hard",
+    "topic": "Closures",
+    "question": "Which statement about transitive closure is correct?",
+    "options": {
+      "A": "It is always the empty relation",
+      "B": "It is the smallest transitive relation containing R",
+      "C": "It is always symmetric",
+      "D": "It removes pairs from R"
+    },
+    "correct_answer": "B",
+    "correct_text": "It is the smallest transitive relation containing R",
+    "explanation": "The transitive closure adds the necessary pairs while retaining all pairs in R."
+  },
+  {
+    "id": "RF080",
+    "level": "Hard",
+    "topic": "Warshall's algorithm",
+    "question": "Given adjacency matrix W and intermediate vertex k, which is the Warshall update?",
+    "options": {
+      "A": "Wᵢⱼ := Wᵢₖ AND Wₖⱼ",
+      "B": "Wᵢⱼ := Wᵢⱼ OR (Wᵢₖ AND Wₖⱼ)",
+      "C": "Wᵢⱼ := NOT Wᵢⱼ",
+      "D": "Wᵢⱼ := Wₖᵢ OR Wⱼₖ"
+    },
+    "correct_answer": "B",
+    "correct_text": "Wᵢⱼ := Wᵢⱼ OR (Wᵢₖ AND Wₖⱼ)",
+    "explanation": "A path i→j exists either already or through k."
+  },
+  {
+    "id": "RF081",
+    "level": "Hard",
+    "topic": "Warshall's algorithm",
+    "question": "A directed graph has edges 1→2, 2→3, and 3→4, with no others. Which pairs must be in its transitive closure beyond the original edges?",
+    "options": {
+      "A": "(1,3), (1,4), (2,4)",
+      "B": "(2,1), (3,2), (4,3)",
+      "C": "Only (1,4)",
+      "D": "All diagonal pairs only"
+    },
+    "correct_answer": "A",
+    "correct_text": "(1,3), (1,4), (2,4)",
+    "explanation": "Paths through intermediate vertices create 1→3, 1→4, and 2→4."
+  },
+  {
+    "id": "RF082",
+    "level": "Hard",
+    "topic": "Warshall's algorithm",
+    "question": "For edges 1→2 and 2→1 on vertices {1,2}, which reachability pairs are implied by nonempty paths?",
+    "options": {
+      "A": "Only (1,2) and (2,1)",
+      "B": "(1,1),(1,2),(2,1),(2,2)",
+      "C": "Only diagonal pairs",
+      "D": "No pairs"
+    },
+    "correct_answer": "B",
+    "correct_text": "(1,1),(1,2),(2,1),(2,2)",
+    "explanation": "The two-cycle provides paths from each vertex back to itself as well as to the other vertex."
+  },
+  {
+    "id": "RF083",
+    "level": "Hard",
+    "topic": "Warshall's algorithm",
+    "question": "Why does Warshall's algorithm use Boolean OR and AND?",
+    "options": {
+      "A": "It sorts matrix values",
+      "B": "A path through k requires both segments, and either an existing or new path establishes reachability",
+      "C": "It calculates shortest distances only",
+      "D": "It makes the matrix symmetric"
+    },
+    "correct_answer": "B",
+    "correct_text": "A path through k requires both segments, and either an existing or new path establishes reachability",
+    "explanation": "AND combines the two path segments; OR preserves prior reachability or adds the new path."
+  },
+  {
+    "id": "RF084",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "Let f:R→R be f(x)=x³. Which is true?",
+    "options": {
+      "A": "Injective and surjective",
+      "B": "Injective but not surjective",
+      "C": "Surjective but not injective",
+      "D": "Neither"
+    },
+    "correct_answer": "A",
+    "correct_text": "Injective and surjective",
+    "explanation": "x³ is strictly increasing and every real y has real cube root."
+  },
+  {
+    "id": "RF085",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "Let f:R→R be f(x)=x². Which modification makes it bijective?",
+    "options": {
+      "A": "Restrict domain to [0,∞) and codomain to [0,∞)",
+      "B": "Restrict domain to R and codomain to [0,∞)",
+      "C": "Keep both as R",
+      "D": "Restrict domain to {−1,1} and codomain R"
+    },
+    "correct_answer": "A",
+    "correct_text": "Restrict domain to [0,∞) and codomain to [0,∞)",
+    "explanation": "On nonnegative reals, squaring is injective and reaches every nonnegative real."
+  },
+  {
+    "id": "RF086",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "If f(x)=2x+3 and g(x)=x−4, find (f∘g)(x).",
+    "options": {
+      "A": "2x−5",
+      "B": "2x+7",
+      "C": "2x−1",
+      "D": "x−5"
+    },
+    "correct_answer": "A",
+    "correct_text": "2x−5",
+    "explanation": "f(g(x))=2(x−4)+3=2x−5."
+  },
+  {
+    "id": "RF087",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "For f(x)=x² and g(x)=x+1, which is (g∘f)(x)?",
+    "options": {
+      "A": "(x+1)²",
+      "B": "x²+1",
+      "C": "x²+x",
+      "D": "2x+1"
+    },
+    "correct_answer": "B",
+    "correct_text": "x²+1",
+    "explanation": "g(f(x))=g(x²)=x²+1."
+  },
+  {
+    "id": "RF088",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "If f(x)=3x−2, calculate (f⁻¹∘f)(7).",
+    "options": {
+      "A": "7",
+      "B": "19",
+      "C": "21",
+      "D": "5"
+    },
+    "correct_answer": "A",
+    "correct_text": "7",
+    "explanation": "For a bijective function, f⁻¹(f(x))=x."
+  },
+  {
+    "id": "RF089",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "Let f:A→B be bijective. Which equality is correct?",
+    "options": {
+      "A": "f∘f⁻¹=I_A",
+      "B": "f⁻¹∘f=I_B",
+      "C": "f∘f⁻¹=I_B and f⁻¹∘f=I_A",
+      "D": "f⁻¹=f always"
+    },
+    "correct_answer": "C",
+    "correct_text": "f∘f⁻¹=I_B and f⁻¹∘f=I_A",
+    "explanation": "The inverse maps B to A; composition on B gives I_B, and on A gives I_A."
+  },
+  {
+    "id": "RF090",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "If f(x)=x+2 and g(x)=x², solve (f∘g)(x)=11 over the reals.",
+    "options": {
+      "A": "x=±3",
+      "B": "x=3 only",
+      "C": "x=±√13",
+      "D": "No real solution"
+    },
+    "correct_answer": "A",
+    "correct_text": "x=±3",
+    "explanation": "x²+2=11 gives x²=9, so x=±3."
+  },
+  {
+    "id": "RF091",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "If f(x)=2x+1 and g(x)=3x−2, what is (g∘f)(x)?",
+    "options": {
+      "A": "6x+1",
+      "B": "6x−1",
+      "C": "5x−1",
+      "D": "6x+3"
+    },
+    "correct_answer": "A",
+    "correct_text": "6x+1",
+    "explanation": "g(f(x))=3(2x+1)−2=6x+1."
+  },
+  {
+    "id": "RF092",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "If f and g are bijections, which statement is correct?",
+    "options": {
+      "A": "(g∘f)⁻¹=f⁻¹∘g⁻¹",
+      "B": "(g∘f)⁻¹=g⁻¹∘f⁻¹",
+      "C": "(g∘f)⁻¹=g∘f",
+      "D": "The composition cannot be inverted"
+    },
+    "correct_answer": "A",
+    "correct_text": "(g∘f)⁻¹=f⁻¹∘g⁻¹",
+    "explanation": "The inverse of a composition reverses the order: apply g⁻¹, then f⁻¹."
+  },
+  {
+    "id": "RF093",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "A function f:A→B is injective but not surjective. Which is guaranteed?",
+    "options": {
+      "A": "Every b∈B has a preimage",
+      "B": "Different elements of A map to different elements of B",
+      "C": "f⁻¹ is a function on all B",
+      "D": "Range equals B"
+    },
+    "correct_answer": "B",
+    "correct_text": "Different elements of A map to different elements of B",
+    "explanation": "Injectivity guarantees distinct inputs have distinct outputs, not that all codomain elements are reached."
+  },
+  {
+    "id": "RF094",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "If |A|=4 and |B|=3, can a function f:A→B be injective?",
+    "options": {
+      "A": "Yes, always",
+      "B": "No, by the pigeonhole principle",
+      "C": "Only if it is also surjective",
+      "D": "Only if A=B"
+    },
+    "correct_answer": "B",
+    "correct_text": "No, by the pigeonhole principle",
+    "explanation": "Four distinct inputs cannot map to four distinct outputs when only three outputs are available."
+  },
+  {
+    "id": "RF095",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "If |A|=3 and |B|=5, can a function f:A→B be surjective?",
+    "options": {
+      "A": "Yes, always",
+      "B": "No, because the domain has fewer elements than the codomain",
+      "C": "Only if it is injective",
+      "D": "Only if A is empty"
+    },
+    "correct_answer": "B",
+    "correct_text": "No, because the domain has fewer elements than the codomain",
+    "explanation": "Three inputs can cover at most three codomain elements, fewer than five."
+  },
+  {
+    "id": "RF096",
+    "level": "Hard",
+    "topic": "Equivalence classes",
+    "question": "If R is an equivalence relation and aRb, which is true?",
+    "options": {
+      "A": "[a]∩[b]=∅",
+      "B": "[a]=[b]",
+      "C": "[a] contains only a",
+      "D": "a and b must be equal as elements"
+    },
+    "correct_answer": "B",
+    "correct_text": "[a]=[b]",
+    "explanation": "Equivalent elements have identical equivalence classes, though they need not be the same element."
+  },
+  {
+    "id": "RF097",
+    "level": "Hard",
+    "topic": "Equivalence classes",
+    "question": "The relation on integers defined by aRb iff a−b is divisible by 4 has how many equivalence classes?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "Infinitely many"
+    },
+    "correct_answer": "C",
+    "correct_text": "4",
+    "explanation": "The classes are determined by the four possible remainders modulo 4."
+  },
+  {
+    "id": "RF098",
+    "level": "Hard",
+    "topic": "Equivalence classes",
+    "question": "For congruence modulo 3 on integers, which is a representative of the same class as −1?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "4"
+    },
+    "correct_answer": "C",
+    "correct_text": "2",
+    "explanation": "−1≡2 (mod 3), since −1−2=−3 is divisible by 3."
+  },
+  {
+    "id": "RF099",
+    "level": "Hard",
+    "topic": "Relations",
+    "question": "A relation is reflexive and transitive but not symmetric. Which is a standard example on integers?",
+    "options": {
+      "A": "Equality",
+      "B": "≤",
+      "C": "Congruence modulo 2",
+      "D": "The empty relation on a nonempty set"
+    },
+    "correct_answer": "B",
+    "correct_text": "≤",
+    "explanation": "The relation ≤ is reflexive and transitive but not symmetric."
+  },
+  {
+    "id": "RF100",
+    "level": "Hard",
+    "topic": "Relations",
+    "question": "On a set A, if R is both an equivalence relation and a partial order, what must R be?",
+    "options": {
+      "A": "The universal relation A×A",
+      "B": "Equality relation",
+      "C": "The empty relation",
+      "D": "A non-reflexive relation"
+    },
+    "correct_answer": "B",
+    "correct_text": "Equality relation",
+    "explanation": "Equivalence gives symmetry, while a partial order gives antisymmetry; mutual relatedness forces equality, and reflexivity supplies all diagonal pairs."
+  },
+  {
+    "id": "RF101",
+    "level": "Hard",
+    "topic": "Set theory",
+    "question": "If A×B=∅, which must hold?",
+    "options": {
+      "A": "A=B=∅",
+      "B": "At least one of A or B is empty",
+      "C": "A and B are equal",
+      "D": "Both sets are infinite"
+    },
+    "correct_answer": "B",
+    "correct_text": "At least one of A or B is empty",
+    "explanation": "A Cartesian product is empty exactly when at least one factor is empty."
+  },
+  {
+    "id": "RF102",
+    "level": "Hard",
+    "topic": "Warshall's algorithm",
+    "question": "A relation matrix's transitive closure has W[1,3]=1 even though the original matrix had W[1,3]=0. What does this indicate?",
+    "options": {
+      "A": "There is a path from 1 to 3 using one or more intermediate vertices",
+      "B": "The relation is symmetric",
+      "C": "The pair (1,3) was in the original relation",
+      "D": "There is no path from 1 to 3"
+    },
+    "correct_answer": "A",
+    "correct_text": "There is a path from 1 to 3 using one or more intermediate vertices",
+    "explanation": "The closure records reachability through paths, not just direct edges."
+  },
+  {
+    "id": "RF103",
+    "level": "Hard",
+    "topic": "Closures",
+    "question": "Can the transitive closure of a relation contain more pairs than the original relation?",
+    "options": {
+      "A": "No, closure only deletes pairs",
+      "B": "Yes, it adds pairs required by transitivity",
+      "C": "Only if the relation is symmetric",
+      "D": "Only if the set is empty"
+    },
+    "correct_answer": "B",
+    "correct_text": "Yes, it adds pairs required by transitivity",
+    "explanation": "Transitive closure preserves existing pairs and adds pairs implied by paths."
+  },
+  {
+    "id": "RF104",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "If f(x)=x−7, what is (f⁻¹∘f)(−2)?",
+    "options": {
+      "A": "−9",
+      "B": "5",
+      "C": "−2",
+      "D": "2"
+    },
+    "correct_answer": "C",
+    "correct_text": "−2",
+    "explanation": "The inverse composition is the identity, so the output is −2."
+  },
+  {
+    "id": "RF105",
+    "level": "Hard",
+    "topic": "Functions",
+    "question": "Let f(x)=x/2 and g(x)=x+6. Find (f∘g)(x).",
+    "options": {
+      "A": "x/2+6",
+      "B": "(x+6)/2",
+      "C": "x/2−6",
+      "D": "2x+6"
+    },
+    "correct_answer": "B",
+    "correct_text": "(x+6)/2",
+    "explanation": "f(g(x))=(x+6)/2."
+  },
+  {
+    "id": "RF106",
+    "level": "Hard",
+    "topic": "Relations",
+    "question": "On A={1,2,3}, R={(1,1),(2,2),(3,3),(1,2),(2,1),(2,3),(3,2),(1,3),(3,1)}. Which relation is this?",
+    "options": {
+      "A": "Identity relation",
+      "B": "Universal relation A×A",
+      "C": "Not reflexive",
+      "D": "A strict order"
+    },
+    "correct_answer": "B",
+    "correct_text": "Universal relation A×A",
+    "explanation": "All nine ordered pairs on a three-element set are included, so R=A×A."
+  },
+  {
+    "id": "RF107",
+    "level": "Hard",
+    "topic": "Warshall's algorithm",
+    "question": "For a directed acyclic graph 1→2, 1→3, 2→4, 3→4, which new pairs are required in the transitive closure?",
+    "options": {
+      "A": "(1,4) only",
+      "B": "(2,3) and (3,2)",
+      "C": "(4,1)",
+      "D": "All diagonal pairs only"
+    },
+    "correct_answer": "A",
+    "correct_text": "(1,4) only",
+    "explanation": "Both paths 1→2→4 and 1→3→4 establish 1→4; the other two-edge paths are direct already."
+  }
+]

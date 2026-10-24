@@ -1,0 +1,1698 @@
+[
+  {
+    "id": "PL001",
+    "level": "Easy",
+    "topic": "Partial order",
+    "question": "A partial order relation must be:",
+    "options": [
+      "Irreflexive, symmetric, transitive",
+      "Reflexive, antisymmetric, transitive",
+      "Symmetric and antisymmetric only",
+      "Reflexive, symmetric, transitive"
+    ],
+    "answer_index": 1,
+    "correct_answer": "Reflexive, antisymmetric, transitive",
+    "explanation": "These are the three defining properties of a partial order.",
+    "skill": "Recall partial order properties"
+  },
+  {
+    "id": "PL002",
+    "level": "Easy",
+    "topic": "Poset",
+    "question": "A set together with a partial order is called a:",
+    "options": [
+      "Graph",
+      "Field",
+      "Group",
+      "Poset"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Poset",
+    "explanation": "A poset is a partially ordered set.",
+    "skill": "Recognize a poset"
+  },
+  {
+    "id": "PL003",
+    "level": "Easy",
+    "topic": "Hasse diagram",
+    "question": "In a Hasse diagram, which edges are usually omitted?",
+    "options": [
+      "Transitive edges",
+      "Maximal elements",
+      "Minimal elements",
+      "Cover relations"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Transitive edges",
+    "explanation": "Edges implied by transitivity are omitted.",
+    "skill": "Identify omitted edges"
+  },
+  {
+    "id": "PL004",
+    "level": "Easy",
+    "topic": "Hasse diagram",
+    "question": "In a Hasse diagram, smaller elements are conventionally placed:",
+    "options": [
+      "Below larger elements",
+      "At the same height always",
+      "Above larger elements",
+      "Outside the diagram"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Below larger elements",
+    "explanation": "The order increases upward by convention.",
+    "skill": "Recall Hasse diagram convention"
+  },
+  {
+    "id": "PL005",
+    "level": "Easy",
+    "topic": "Chain",
+    "question": "A chain in a poset is a subset in which every pair is:",
+    "options": [
+      "Comparable",
+      "Equal",
+      "A cover pair",
+      "Incomparable"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Comparable",
+    "explanation": "Every two elements in a chain can be compared by the order.",
+    "skill": "Identify chains"
+  },
+  {
+    "id": "PL006",
+    "level": "Easy",
+    "topic": "Antichain",
+    "question": "An antichain is a subset in which distinct elements are:",
+    "options": [
+      "All equal",
+      "Always maximal",
+      "Pairwise incomparable",
+      "All comparable"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Pairwise incomparable",
+    "explanation": "No two distinct elements of an antichain are comparable.",
+    "skill": "Identify antichains"
+  },
+  {
+    "id": "PL007",
+    "level": "Easy",
+    "topic": "Lattice",
+    "question": "A lattice is a poset in which every pair has:",
+    "options": [
+      "Exactly two covers",
+      "A meet and a join",
+      "A unique maximum only",
+      "A complement"
+    ],
+    "answer_index": 1,
+    "correct_answer": "A meet and a join",
+    "explanation": "Every pair must have a greatest lower bound and least upper bound.",
+    "skill": "Recognize lattice definition"
+  },
+  {
+    "id": "PL008",
+    "level": "Easy",
+    "topic": "Meet and join",
+    "question": "The meet of a and b is their:",
+    "options": [
+      "Greatest lower bound",
+      "Only common upper bound",
+      "Least upper bound",
+      "Greatest element"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Greatest lower bound",
+    "explanation": "Meet is the greatest lower bound, often written a ∧ b.",
+    "skill": "Compute meet and join"
+  },
+  {
+    "id": "PL009",
+    "level": "Easy",
+    "topic": "Meet and join",
+    "question": "The join of a and b is their:",
+    "options": [
+      "Least upper bound",
+      "Least element",
+      "Greatest lower bound",
+      "Only common lower bound"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Least upper bound",
+    "explanation": "Join is the least upper bound, often written a ∨ b.",
+    "skill": "Compute meet and join"
+  },
+  {
+    "id": "PL010",
+    "level": "Easy",
+    "topic": "Divisibility poset",
+    "question": "In the divisibility poset of positive integers, 2 ≤ 6 means:",
+    "options": [
+      "6 divides 2",
+      "2 and 6 are incomparable",
+      "2 is divisible by 6",
+      "2 divides 6"
+    ],
+    "answer_index": 3,
+    "correct_answer": "2 divides 6",
+    "explanation": "The order is defined by divisibility.",
+    "skill": "Apply divisibility order"
+  },
+  {
+    "id": "PL011",
+    "level": "Easy",
+    "topic": "Power set",
+    "question": "For the power set P(S), the usual partial order is:",
+    "options": [
+      "Set union",
+      "Set intersection",
+      "Element membership",
+      "Subset inclusion"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Subset inclusion",
+    "explanation": "The usual order is ⊆.",
+    "skill": "Apply subset order on power set"
+  },
+  {
+    "id": "PL012",
+    "level": "Easy",
+    "topic": "Power set",
+    "question": "In P({a,b}), the least element under ⊆ is:",
+    "options": [
+      "{b}",
+      "∅",
+      "{a}",
+      "{a,b}"
+    ],
+    "answer_index": 1,
+    "correct_answer": "∅",
+    "explanation": "The empty set is a subset of every set.",
+    "skill": "Apply subset order on power set"
+  },
+  {
+    "id": "PL013",
+    "level": "Easy",
+    "topic": "Power set",
+    "question": "In P({a,b}), the greatest element under ⊆ is:",
+    "options": [
+      "{a,b}",
+      "{a}",
+      "∅",
+      "{b}"
+    ],
+    "answer_index": 0,
+    "correct_answer": "{a,b}",
+    "explanation": "The full set contains every subset.",
+    "skill": "Apply subset order on power set"
+  },
+  {
+    "id": "PL014",
+    "level": "Easy",
+    "topic": "Sublattice",
+    "question": "A sublattice of a lattice is a nonempty subset closed under:",
+    "options": [
+      "Only order reversal",
+      "Union regardless of order",
+      "Meet and join",
+      "Only complements"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Meet and join",
+    "explanation": "For every pair in the subset, its meet and join must remain in the subset.",
+    "skill": "Check sublattice closure"
+  },
+  {
+    "id": "PL015",
+    "level": "Easy",
+    "topic": "Partial order",
+    "question": "Which relation on integers is a partial order?",
+    "options": [
+      "a < b",
+      "a = b only",
+      "a ≤ b",
+      "a divides b"
+    ],
+    "answer_index": 2,
+    "correct_answer": "a ≤ b",
+    "explanation": "The usual ≤ relation is reflexive, antisymmetric, and transitive.",
+    "skill": "Recall partial order properties"
+  },
+  {
+    "id": "PL016",
+    "level": "Easy",
+    "topic": "Partial order",
+    "question": "A reflexive relation requires that:",
+    "options": [
+      "aRb implies a=b",
+      "aRb implies bRa",
+      "aRb and bRc imply aRc",
+      "aRa for every a"
+    ],
+    "answer_index": 3,
+    "correct_answer": "aRa for every a",
+    "explanation": "Every element is related to itself.",
+    "skill": "Recall partial order properties"
+  },
+  {
+    "id": "PL017",
+    "level": "Easy",
+    "topic": "Partial order",
+    "question": "Antisymmetry means:",
+    "options": [
+      "aRb and bRa imply a=b",
+      "aRb implies aRc",
+      "aRa never holds",
+      "aRb implies bRa"
+    ],
+    "answer_index": 0,
+    "correct_answer": "aRb and bRa imply a=b",
+    "explanation": "Mutual relatedness forces equality.",
+    "skill": "Recall partial order properties"
+  },
+  {
+    "id": "PL018",
+    "level": "Easy",
+    "topic": "Partial order",
+    "question": "Transitivity means:",
+    "options": [
+      "aRb implies a=a",
+      "aRa for all a",
+      "aRb and bRc imply aRc",
+      "aRb implies bRa"
+    ],
+    "answer_index": 2,
+    "correct_answer": "aRb and bRc imply aRc",
+    "explanation": "The relation passes through intermediate elements.",
+    "skill": "Recall partial order properties"
+  },
+  {
+    "id": "PL019",
+    "level": "Easy",
+    "topic": "Minimal/maximal",
+    "question": "A minimal element has:",
+    "options": [
+      "To be comparable with all",
+      "To be the least element",
+      "No element above it",
+      "No element below it in the poset"
+    ],
+    "answer_index": 3,
+    "correct_answer": "No element below it in the poset",
+    "explanation": "Minimal means no strictly smaller element; there may be multiple minimal elements.",
+    "skill": "Distinguish minimal and maximal elements"
+  },
+  {
+    "id": "PL020",
+    "level": "Easy",
+    "topic": "Minimal/maximal",
+    "question": "A maximal element has:",
+    "options": [
+      "No element below it",
+      "No element strictly above it",
+      "To be the greatest element",
+      "To be the only element"
+    ],
+    "answer_index": 1,
+    "correct_answer": "No element strictly above it",
+    "explanation": "Maximal means no strictly larger element; there may be multiple maximal elements.",
+    "skill": "Distinguish minimal and maximal elements"
+  },
+  {
+    "id": "PL021",
+    "level": "Easy",
+    "topic": "Least/greatest",
+    "question": "The least element of a poset, if it exists, is:",
+    "options": [
+      "Not necessarily unique",
+      "Always maximal only",
+      "Always incomparable",
+      "Always unique"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Always unique",
+    "explanation": "If two least elements existed, antisymmetry would make them equal.",
+    "skill": "Recognize least and greatest elements"
+  },
+  {
+    "id": "PL022",
+    "level": "Easy",
+    "topic": "Least/greatest",
+    "question": "A greatest element of a poset is above:",
+    "options": [
+      "Only minimal elements",
+      "No elements",
+      "Only maximal elements",
+      "Every element"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Every element",
+    "explanation": "Greatest means every element is ≤ it.",
+    "skill": "Recognize least and greatest elements"
+  },
+  {
+    "id": "PL023",
+    "level": "Easy",
+    "topic": "Hasse diagram",
+    "question": "The Hasse diagram of a total order on three elements is usually:",
+    "options": [
+      "A three-element vertical chain",
+      "A square",
+      "Three isolated points",
+      "A triangle"
+    ],
+    "answer_index": 0,
+    "correct_answer": "A three-element vertical chain",
+    "explanation": "All pairs are comparable, so the cover edges form a chain.",
+    "skill": "Draw Hasse diagram of a chain"
+  },
+  {
+    "id": "PL024",
+    "level": "Easy",
+    "topic": "Lattice laws",
+    "question": "In a lattice, a ∧ a equals:",
+    "options": [
+      "1 always",
+      "a'",
+      "0 always",
+      "a"
+    ],
+    "answer_index": 3,
+    "correct_answer": "a",
+    "explanation": "Meet is idempotent: a ∧ a = a.",
+    "skill": "Apply lattice laws"
+  },
+  {
+    "id": "PL025",
+    "level": "Easy",
+    "topic": "Lattice laws",
+    "question": "In a lattice, a ∨ a equals:",
+    "options": [
+      "1",
+      "a",
+      "0",
+      "a'"
+    ],
+    "answer_index": 1,
+    "correct_answer": "a",
+    "explanation": "Join is idempotent: a ∨ a = a.",
+    "skill": "Apply lattice laws"
+  },
+  {
+    "id": "PL026",
+    "level": "Easy",
+    "topic": "Set lattice",
+    "question": "For sets ordered by inclusion, meet corresponds to:",
+    "options": [
+      "Intersection",
+      "Complement",
+      "Union",
+      "Difference"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Intersection",
+    "explanation": "Intersection is the greatest set contained in both.",
+    "skill": "Compute meet/join of sets"
+  },
+  {
+    "id": "PL027",
+    "level": "Easy",
+    "topic": "Set lattice",
+    "question": "For sets ordered by inclusion, join corresponds to:",
+    "options": [
+      "Complement",
+      "Union",
+      "Difference",
+      "Intersection"
+    ],
+    "answer_index": 1,
+    "correct_answer": "Union",
+    "explanation": "Union is the least set containing both.",
+    "skill": "Compute meet/join of sets"
+  },
+  {
+    "id": "PL028",
+    "level": "Easy",
+    "topic": "Divisibility lattice",
+    "question": "The divisibility poset of positive divisors of 12 has meet of 4 and 6 equal to:",
+    "options": [
+      "2",
+      "12",
+      "1",
+      "4"
+    ],
+    "answer_index": 0,
+    "correct_answer": "2",
+    "explanation": "Their greatest common divisor is 2.",
+    "skill": "Compute gcd/lcm as meet/join"
+  },
+  {
+    "id": "PL029",
+    "level": "Easy",
+    "topic": "Divisibility lattice",
+    "question": "The divisibility poset of positive divisors of 12 has join of 4 and 6 equal to:",
+    "options": [
+      "12",
+      "6",
+      "2",
+      "8"
+    ],
+    "answer_index": 0,
+    "correct_answer": "12",
+    "explanation": "Their least common multiple is 12.",
+    "skill": "Compute gcd/lcm as meet/join"
+  },
+  {
+    "id": "PL030",
+    "level": "Easy",
+    "topic": "Types of lattices",
+    "question": "A Boolean lattice is commonly represented by:",
+    "options": [
+      "Power set ordered by inclusion",
+      "A directed cycle",
+      "A set with no order",
+      "A single chain only"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Power set ordered by inclusion",
+    "explanation": "Power sets with subset order form Boolean lattices.",
+    "skill": "Classify lattice types"
+  },
+  {
+    "id": "PL031",
+    "level": "Easy",
+    "topic": "Applications",
+    "question": "Which is a real-world use of lattice-like ordering?",
+    "options": [
+      "Randomly shuffling cards",
+      "Organizing file permissions by sets of access rights",
+      "Converting decimal to binary only",
+      "Measuring temperature only"
+    ],
+    "answer_index": 1,
+    "correct_answer": "Organizing file permissions by sets of access rights",
+    "explanation": "Access-right sets can be ordered by inclusion and combined by meet/join-like operations.",
+    "skill": "Model real-world lattices"
+  },
+  {
+    "id": "PL032",
+    "level": "Easy",
+    "topic": "Power set",
+    "question": "In the power set lattice, A ∧ B is:",
+    "options": [
+      "A ∪ B",
+      "A complement",
+      "A \\ B",
+      "A ∩ B"
+    ],
+    "answer_index": 3,
+    "correct_answer": "A ∩ B",
+    "explanation": "Meet is intersection.",
+    "skill": "Apply subset order on power set"
+  },
+  {
+    "id": "PL033",
+    "level": "Easy",
+    "topic": "Power set",
+    "question": "In the power set lattice, A ∨ B is:",
+    "options": [
+      "A ∩ B",
+      "A ∪ B",
+      "A \\ B",
+      "∅"
+    ],
+    "answer_index": 1,
+    "correct_answer": "A ∪ B",
+    "explanation": "Join is union.",
+    "skill": "Apply subset order on power set"
+  },
+  {
+    "id": "PL034",
+    "level": "Easy",
+    "topic": "Chain/antichain",
+    "question": "Two elements are comparable if:",
+    "options": [
+      "a ≤ b or b ≤ a",
+      "They share a cover",
+      "They are equal only",
+      "Neither is below the other"
+    ],
+    "answer_index": 0,
+    "correct_answer": "a ≤ b or b ≤ a",
+    "explanation": "Comparability requires one to be ≤ the other.",
+    "skill": "Distinguish comparable and incomparable elements"
+  },
+  {
+    "id": "PL035",
+    "level": "Easy",
+    "topic": "Lattice",
+    "question": "A poset is a lattice only if every pair has:",
+    "options": [
+      "A meet and join",
+      "A complement",
+      "A common cover",
+      "A unique minimal element"
+    ],
+    "answer_index": 0,
+    "correct_answer": "A meet and join",
+    "explanation": "Pairwise meet and join must exist.",
+    "skill": "Recognize lattice definition"
+  },
+  {
+    "id": "PL036",
+    "level": "Medium",
+    "topic": "Divisibility poset",
+    "question": "On {1,2,3,6}, order by divisibility. Which pair is incomparable?",
+    "options": [
+      "2 and 6",
+      "2 and 3",
+      "1 and 3",
+      "1 and 6"
+    ],
+    "answer_index": 1,
+    "correct_answer": "2 and 3",
+    "explanation": "Neither 2 divides 3 nor 3 divides 2.",
+    "skill": "Apply divisibility order"
+  },
+  {
+    "id": "PL037",
+    "level": "Medium",
+    "topic": "Meet and join",
+    "question": "For P({a,b}), ordered by ⊆, the meet of {a} and {b} is:",
+    "options": [
+      "{a}",
+      "{a,b}",
+      "{b}",
+      "∅"
+    ],
+    "answer_index": 3,
+    "correct_answer": "∅",
+    "explanation": "Their intersection is empty.",
+    "skill": "Compute meet and join"
+  },
+  {
+    "id": "PL038",
+    "level": "Medium",
+    "topic": "Meet and join",
+    "question": "For P({a,b}), ordered by ⊆, the join of {a} and {b} is:",
+    "options": [
+      "∅",
+      "{a}",
+      "{a,b}",
+      "{b}"
+    ],
+    "answer_index": 2,
+    "correct_answer": "{a,b}",
+    "explanation": "Their union is {a,b}.",
+    "skill": "Compute meet and join"
+  },
+  {
+    "id": "PL039",
+    "level": "Medium",
+    "topic": "Meet and join",
+    "question": "In the divisibility poset of divisors of 18, the meet of 6 and 9 is:",
+    "options": [
+      "2",
+      "1",
+      "18",
+      "3"
+    ],
+    "answer_index": 3,
+    "correct_answer": "3",
+    "explanation": "gcd(6,9)=3.",
+    "skill": "Compute meet and join"
+  },
+  {
+    "id": "PL040",
+    "level": "Medium",
+    "topic": "Meet and join",
+    "question": "In the divisibility poset of divisors of 18, the join of 6 and 9 is:",
+    "options": [
+      "18",
+      "9",
+      "12",
+      "3"
+    ],
+    "answer_index": 0,
+    "correct_answer": "18",
+    "explanation": "lcm(6,9)=18.",
+    "skill": "Compute meet and join"
+  },
+  {
+    "id": "PL041",
+    "level": "Medium",
+    "topic": "Hasse diagram",
+    "question": "For the poset ({1,2,3,6}, |), the cover relations include:",
+    "options": [
+      "1≺2 and 1≺6 only",
+      "1≺2, 1≺3, 2≺6, 3≺6",
+      "1≺6 only",
+      "2≺3 and 3≺6"
+    ],
+    "answer_index": 1,
+    "correct_answer": "1≺2, 1≺3, 2≺6, 3≺6",
+    "explanation": "The Hasse diagram omits 1≺6 because it is implied transitively.",
+    "skill": "Identify cover relations"
+  },
+  {
+    "id": "PL042",
+    "level": "Medium",
+    "topic": "Chain",
+    "question": "Which subset is a chain in ({1,2,3,6}, |)?",
+    "options": [
+      "{2,3,6}",
+      "{1,2,6}",
+      "{2,3}",
+      "{1,2,3}"
+    ],
+    "answer_index": 1,
+    "correct_answer": "{1,2,6}",
+    "explanation": "1|2 and 2|6, so all elements are comparable.",
+    "skill": "Identify chains"
+  },
+  {
+    "id": "PL043",
+    "level": "Medium",
+    "topic": "Antichain",
+    "question": "Which subset is an antichain in ({1,2,3,6}, |)?",
+    "options": [
+      "{1,3}",
+      "{2,6}",
+      "{2,3}",
+      "{1,2}"
+    ],
+    "answer_index": 2,
+    "correct_answer": "{2,3}",
+    "explanation": "2 and 3 are incomparable.",
+    "skill": "Identify antichains"
+  },
+  {
+    "id": "PL044",
+    "level": "Medium",
+    "topic": "Partial order",
+    "question": "A relation on {a,b} containing (a,a),(b,b),(a,b),(b,a) is not a partial order because it violates:",
+    "options": [
+      "All three",
+      "Reflexivity",
+      "Transitivity",
+      "Antisymmetry"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Antisymmetry",
+    "explanation": "Both aRb and bRa hold while a≠b.",
+    "skill": "Test partial order properties"
+  },
+  {
+    "id": "PL045",
+    "level": "Medium",
+    "topic": "Partial order",
+    "question": "Which relation on {1,2,3} is a partial order?",
+    "options": [
+      "Relation {(1,2),(2,1)} only",
+      "Equality relation",
+      "A relation missing (2,2)",
+      "Strict less-than <"
+    ],
+    "answer_index": 1,
+    "correct_answer": "Equality relation",
+    "explanation": "Equality is reflexive, antisymmetric, and transitive.",
+    "skill": "Test partial order properties"
+  },
+  {
+    "id": "PL046",
+    "level": "Medium",
+    "topic": "Lattice laws",
+    "question": "In a lattice, if a ≤ b, then a ∧ b =:",
+    "options": [
+      "0",
+      "a",
+      "1",
+      "b"
+    ],
+    "answer_index": 1,
+    "correct_answer": "a",
+    "explanation": "The lower element is the greatest lower bound.",
+    "skill": "Apply lattice laws"
+  },
+  {
+    "id": "PL047",
+    "level": "Medium",
+    "topic": "Lattice laws",
+    "question": "In a lattice, if a ≤ b, then a ∨ b =:",
+    "options": [
+      "1",
+      "b",
+      "0",
+      "a"
+    ],
+    "answer_index": 1,
+    "correct_answer": "b",
+    "explanation": "The upper element is the least upper bound.",
+    "skill": "Apply lattice laws"
+  },
+  {
+    "id": "PL048",
+    "level": "Medium",
+    "topic": "Minimal/maximal",
+    "question": "A finite poset with a unique minimal element is guaranteed to have:",
+    "options": [
+      "A greatest element",
+      "A unique maximal element",
+      "A least element",
+      "Neither meet nor join"
+    ],
+    "answer_index": 2,
+    "correct_answer": "A least element",
+    "explanation": "In a finite poset, every element lies above at least one minimal element. If there is only one minimal element, it is below every element and is therefore the least element.",
+    "skill": "Distinguish minimal and maximal elements"
+  },
+  {
+    "id": "PL049",
+    "level": "Medium",
+    "topic": "Minimal/least",
+    "question": "Which statement best distinguishes minimal from least?",
+    "options": [
+      "A least element can be multiple",
+      "Minimal is below all; least has no lower element",
+      "Least is below every element; minimal has no strictly smaller element",
+      "They always mean the same thing"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Least is below every element; minimal has no strictly smaller element",
+    "explanation": "A least element is comparable below all; minimal need not be comparable with all.",
+    "skill": "Distinguish minimal from least"
+  },
+  {
+    "id": "PL050",
+    "level": "Medium",
+    "topic": "Maximal/greatest",
+    "question": "Which statement best distinguishes maximal from greatest?",
+    "options": [
+      "Maximal is above every element; greatest has no greater element",
+      "They always mean the same thing",
+      "A greatest element can be multiple",
+      "Greatest is above every element; maximal has no strictly greater element"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Greatest is above every element; maximal has no strictly greater element",
+    "explanation": "A maximal element need not dominate incomparable elements.",
+    "skill": "Distinguish maximal from greatest"
+  },
+  {
+    "id": "PL051",
+    "level": "Medium",
+    "topic": "Set lattice",
+    "question": "Let A={1,2}, B={2,3}. In the power set lattice, A ∧ B is:",
+    "options": [
+      "{1,3}",
+      "{2}",
+      "∅",
+      "{1,2,3}"
+    ],
+    "answer_index": 1,
+    "correct_answer": "{2}",
+    "explanation": "Intersection is {2}.",
+    "skill": "Compute meet/join of sets"
+  },
+  {
+    "id": "PL052",
+    "level": "Medium",
+    "topic": "Set lattice",
+    "question": "Let A={1,2}, B={2,3}. In the power set lattice, A ∨ B is:",
+    "options": [
+      "{1,2}",
+      "{3}",
+      "{1,2,3}",
+      "{2}"
+    ],
+    "answer_index": 2,
+    "correct_answer": "{1,2,3}",
+    "explanation": "Union is {1,2,3}.",
+    "skill": "Compute meet/join of sets"
+  },
+  {
+    "id": "PL053",
+    "level": "Medium",
+    "topic": "Sublattice",
+    "question": "Which subset is NOT a sublattice of P({a,b}) under intersection and union?",
+    "options": [
+      "{∅,{a}}",
+      "{{a},{b}}",
+      "{∅,{a},{a,b}}",
+      "{∅,{b}}"
+    ],
+    "answer_index": 1,
+    "correct_answer": "{{a},{b}}",
+    "explanation": "The meet of {a} and {b} is ∅, which is not in {{a},{b}}, so the subset is not closed under meet.",
+    "skill": "Check sublattice closure"
+  },
+  {
+    "id": "PL054",
+    "level": "Medium",
+    "topic": "Lattice laws",
+    "question": "In a lattice, the meet operation is:",
+    "options": [
+      "Commutative",
+      "Always equal to join",
+      "Not idempotent",
+      "Never associative"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Commutative",
+    "explanation": "Meet is commutative: a∧b=b∧a.",
+    "skill": "Apply lattice laws"
+  },
+  {
+    "id": "PL055",
+    "level": "Medium",
+    "topic": "Lattice laws",
+    "question": "In a lattice, the join operation is:",
+    "options": [
+      "Not idempotent",
+      "Not commutative",
+      "Always equal to meet",
+      "Commutative"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Commutative",
+    "explanation": "Join is commutative: a∨b=b∨a.",
+    "skill": "Apply lattice laws"
+  },
+  {
+    "id": "PL056",
+    "level": "Medium",
+    "topic": "Types of lattices",
+    "question": "Which property is required for a distributive lattice?",
+    "options": [
+      "a∧(b∨c)=(a∧b)∨(a∧c) and dual",
+      "No incomparable elements",
+      "Every element has a complement",
+      "Only one maximal element"
+    ],
+    "answer_index": 0,
+    "correct_answer": "a∧(b∨c)=(a∧b)∨(a∧c) and dual",
+    "explanation": "Distributivity requires meet distributing over join and vice versa.",
+    "skill": "Classify lattice types"
+  },
+  {
+    "id": "PL057",
+    "level": "Medium",
+    "topic": "Types of lattices",
+    "question": "A complemented lattice requires that each element have:",
+    "options": [
+      "A unique cover",
+      "A complement relative to 0 and 1",
+      "No comparable elements",
+      "Exactly two joins"
+    ],
+    "answer_index": 1,
+    "correct_answer": "A complement relative to 0 and 1",
+    "explanation": "For each a, a complement b satisfies a∧b=0 and a∨b=1.",
+    "skill": "Classify lattice types"
+  },
+  {
+    "id": "PL058",
+    "level": "Medium",
+    "topic": "Types of lattices",
+    "question": "A bounded lattice has:",
+    "options": [
+      "Only one element",
+      "No meet operation",
+      "Every pair incomparable",
+      "A least and a greatest element"
+    ],
+    "answer_index": 3,
+    "correct_answer": "A least and a greatest element",
+    "explanation": "Bounds are bottom 0 and top 1.",
+    "skill": "Classify lattice types"
+  },
+  {
+    "id": "PL059",
+    "level": "Medium",
+    "topic": "Divisibility lattice",
+    "question": "Which is a lattice under divisibility?",
+    "options": [
+      "{2,3,5} under divisibility",
+      "A set with no relation",
+      "All integers under <",
+      "Positive divisors of 12"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Positive divisors of 12",
+    "explanation": "For any two divisors of 12, gcd and lcm are also divisors of 12.",
+    "skill": "Compute gcd/lcm as meet/join"
+  },
+  {
+    "id": "PL060",
+    "level": "Medium",
+    "topic": "Hasse diagram",
+    "question": "In a Hasse diagram, an edge x—y means typically:",
+    "options": [
+      "They are complements",
+      "x=y",
+      "They are incomparable",
+      "One covers the other"
+    ],
+    "answer_index": 3,
+    "correct_answer": "One covers the other",
+    "explanation": "Edges show cover relations, with the higher element covering the lower.",
+    "skill": "Interpret Hasse diagram edges"
+  },
+  {
+    "id": "PL061",
+    "level": "Medium",
+    "topic": "Lattice",
+    "question": "If a and b have two distinct incomparable minimal upper bounds, their join:",
+    "options": [
+      "Does not exist",
+      "Must be both",
+      "Is always 1",
+      "Must be the lower one"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Does not exist",
+    "explanation": "A join must be a unique least upper bound.",
+    "skill": "Recognize lattice definition"
+  },
+  {
+    "id": "PL062",
+    "level": "Medium",
+    "topic": "Meet and join",
+    "question": "If a and b have several lower bounds, their meet is:",
+    "options": [
+      "Always 0",
+      "The least upper bound",
+      "Any lower bound",
+      "The greatest among their lower bounds"
+    ],
+    "answer_index": 3,
+    "correct_answer": "The greatest among their lower bounds",
+    "explanation": "Meet is the greatest lower bound.",
+    "skill": "Compute meet and join"
+  },
+  {
+    "id": "PL063",
+    "level": "Medium",
+    "topic": "Chain",
+    "question": "In a total order, every subset is:",
+    "options": [
+      "A chain",
+      "A set of maximal elements",
+      "An antichain",
+      "A sublattice automatically"
+    ],
+    "answer_index": 0,
+    "correct_answer": "A chain",
+    "explanation": "Every pair of elements is comparable.",
+    "skill": "Identify chains"
+  },
+  {
+    "id": "PL064",
+    "level": "Medium",
+    "topic": "Antichain",
+    "question": "The largest possible antichain in P({a,b}) has size:",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "3"
+    ],
+    "answer_index": 1,
+    "correct_answer": "2",
+    "explanation": "The two singleton sets are incomparable, giving an antichain of size 2.",
+    "skill": "Identify antichains"
+  },
+  {
+    "id": "PL065",
+    "level": "Medium",
+    "topic": "Divisibility lattice",
+    "question": "For divisors of 10 under divisibility, the join of 2 and 5 is:",
+    "options": [
+      "10",
+      "1",
+      "5",
+      "2"
+    ],
+    "answer_index": 0,
+    "correct_answer": "10",
+    "explanation": "lcm(2,5)=10.",
+    "skill": "Compute gcd/lcm as meet/join"
+  },
+  {
+    "id": "PL066",
+    "level": "Medium",
+    "topic": "Divisibility lattice",
+    "question": "For divisors of 10 under divisibility, the meet of 2 and 5 is:",
+    "options": [
+      "5",
+      "2",
+      "1",
+      "10"
+    ],
+    "answer_index": 2,
+    "correct_answer": "1",
+    "explanation": "gcd(2,5)=1.",
+    "skill": "Compute gcd/lcm as meet/join"
+  },
+  {
+    "id": "PL067",
+    "level": "Medium",
+    "topic": "Chain",
+    "question": "Which set is a chain under ⊆?",
+    "options": [
+      "∅,{a},{a,b}",
+      "{a},{b},{a,b}",
+      "{a},{b}",
+      "{a,b},{b,c}"
+    ],
+    "answer_index": 0,
+    "correct_answer": "∅,{a},{a,b}",
+    "explanation": "Each set is contained in the next.",
+    "skill": "Identify chains"
+  },
+  {
+    "id": "PL068",
+    "level": "Medium",
+    "topic": "Applications",
+    "question": "Which application most directly uses lattice operations?",
+    "options": [
+      "Compressing an image only",
+      "Sorting numbers alphabetically",
+      "Measuring speed with a stopwatch",
+      "Combining access rights by intersection/union"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Combining access rights by intersection/union",
+    "explanation": "Permissions can be modeled as sets, with meet/join as intersection/union.",
+    "skill": "Model real-world lattices"
+  },
+  {
+    "id": "PL069",
+    "level": "Medium",
+    "topic": "Isomorphism",
+    "question": "Two lattices are isomorphic when there is a bijection that:",
+    "options": [
+      "Preserves the order/meet/join structure",
+      "Maps every element to itself",
+      "Preserves only the number of elements",
+      "Reverses every relation necessarily"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Preserves the order/meet/join structure",
+    "explanation": "An isomorphism preserves the relevant lattice structure.",
+    "skill": "Reason about lattice isomorphism"
+  },
+  {
+    "id": "PL070",
+    "level": "Medium",
+    "topic": "Chain",
+    "question": "A chain with four elements has how many incomparable pairs?",
+    "options": [
+      "1",
+      "0",
+      "3",
+      "6"
+    ],
+    "answer_index": 1,
+    "correct_answer": "0",
+    "explanation": "Every pair in a chain is comparable.",
+    "skill": "Identify chains"
+  },
+  {
+    "id": "PL071",
+    "level": "Hard",
+    "topic": "Antichain",
+    "question": "For S={1,2,3,4,6,12} ordered by divisibility, which is an antichain of size 2?",
+    "options": [
+      "{3,4}",
+      "{2,4}",
+      "{1,12}",
+      "{1,2}"
+    ],
+    "answer_index": 0,
+    "correct_answer": "{3,4}",
+    "explanation": "Neither 3 divides 4 nor 4 divides 3, so they are incomparable.",
+    "skill": "Identify antichains"
+  },
+  {
+    "id": "PL072",
+    "level": "Hard",
+    "topic": "Chain",
+    "question": "In the divisibility poset of divisors of 12, which is a maximum-length chain?",
+    "options": [
+      "1<3<4<12",
+      "1<2<3<12",
+      "1<2<4<12",
+      "2<3<6<12"
+    ],
+    "answer_index": 2,
+    "correct_answer": "1<2<4<12",
+    "explanation": "Each step is divisibility and each adjacent pair is a cover; the chain has four elements.",
+    "skill": "Identify chains"
+  },
+  {
+    "id": "PL073",
+    "level": "Hard",
+    "topic": "Meet and join",
+    "question": "For P({a,b,c}), ordered by inclusion, the meet of {a,b} and {b,c} is:",
+    "options": [
+      "∅",
+      "{a,c}",
+      "{a,b,c}",
+      "{b}"
+    ],
+    "answer_index": 3,
+    "correct_answer": "{b}",
+    "explanation": "Intersection gives {b}.",
+    "skill": "Compute meet and join"
+  },
+  {
+    "id": "PL074",
+    "level": "Hard",
+    "topic": "Meet and join",
+    "question": "For P({a,b,c}), ordered by inclusion, the join of {a,b} and {b,c} is:",
+    "options": [
+      "{a,b,c}",
+      "{b}",
+      "{a,c}",
+      "{a,b}"
+    ],
+    "answer_index": 0,
+    "correct_answer": "{a,b,c}",
+    "explanation": "Union gives {a,b,c}.",
+    "skill": "Compute meet and join"
+  },
+  {
+    "id": "PL075",
+    "level": "Hard",
+    "topic": "Lattice test",
+    "question": "A poset has elements a,b,c with a<b, a<c, and b,c incomparable. Does b∨c exist if there is no element above both?",
+    "options": [
+      "Yes, it is c",
+      "Yes, it is a",
+      "Yes, it is b",
+      "No, there is no common upper bound"
+    ],
+    "answer_index": 3,
+    "correct_answer": "No, there is no common upper bound",
+    "explanation": "A join requires an upper bound; none exists here.",
+    "skill": "Test whether a join exists"
+  },
+  {
+    "id": "PL076",
+    "level": "Hard",
+    "topic": "Lattice test",
+    "question": "A poset has two incomparable minimal upper bounds u and v for x and y, with no upper bound below both. Then x∨y:",
+    "options": [
+      "Does not exist",
+      "Equals x∧y",
+      "Equals v",
+      "Equals u"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Does not exist",
+    "explanation": "There is no unique least upper bound.",
+    "skill": "Test whether a join exists"
+  },
+  {
+    "id": "PL077",
+    "level": "Hard",
+    "topic": "Lattice theorem",
+    "question": "Which statement is guaranteed by the definition of a lattice?",
+    "options": [
+      "Every element has a complement",
+      "The lattice is distributive",
+      "Every pair is comparable",
+      "Every pair has both a meet and a join"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Every pair has both a meet and a join",
+    "explanation": "A lattice requires a greatest lower bound and least upper bound for every pair.",
+    "skill": "Apply lattice definition"
+  },
+  {
+    "id": "PL078",
+    "level": "Hard",
+    "topic": "Lattice laws",
+    "question": "Which pair of identities expresses absorption in any lattice?",
+    "options": [
+      "a∧b=a∨b",
+      "a∧0=1 and a∨1=0",
+      "a∧a'=1 and a∨a'=0",
+      "a∧(a∨b)=a and a∨(a∧b)=a"
+    ],
+    "answer_index": 3,
+    "correct_answer": "a∧(a∨b)=a and a∨(a∧b)=a",
+    "explanation": "These are the absorption laws.",
+    "skill": "Apply lattice laws"
+  },
+  {
+    "id": "PL079",
+    "level": "Hard",
+    "topic": "Distributive lattice",
+    "question": "Which condition is sufficient for a lattice to be distributive?",
+    "options": [
+      "It contains no sublattice isomorphic to M3 or N5",
+      "It is a chain of odd size",
+      "Every element has exactly two covers",
+      "It has no least element"
+    ],
+    "answer_index": 0,
+    "correct_answer": "It contains no sublattice isomorphic to M3 or N5",
+    "explanation": "The finite-lattice characterization excludes M3 and N5; the standard theorem applies to lattices generally.",
+    "skill": "Characterize distributive lattices"
+  },
+  {
+    "id": "PL080",
+    "level": "Hard",
+    "topic": "Sublattice",
+    "question": "In P({1,2,3}), consider L={∅,{1},{2},{1,2}}. Is L a sublattice?",
+    "options": [
+      "No, because it lacks {1,2,3}",
+      "Yes, closed under intersection and union",
+      "No, because ∅ cannot be included",
+      "No, because it lacks {3}"
+    ],
+    "answer_index": 1,
+    "correct_answer": "Yes, closed under intersection and union",
+    "explanation": "Intersections and unions of these four sets remain in L.",
+    "skill": "Check sublattice closure"
+  },
+  {
+    "id": "PL081",
+    "level": "Hard",
+    "topic": "Divisibility lattice",
+    "question": "In the lattice of divisors of 30 ordered by divisibility, compute 6∨10.",
+    "options": [
+      "10",
+      "2",
+      "30",
+      "6"
+    ],
+    "answer_index": 2,
+    "correct_answer": "30",
+    "explanation": "Join is lcm(6,10)=30.",
+    "skill": "Compute gcd/lcm as meet/join"
+  },
+  {
+    "id": "PL082",
+    "level": "Hard",
+    "topic": "Divisibility lattice",
+    "question": "In the lattice of divisors of 30 ordered by divisibility, compute 6∧10.",
+    "options": [
+      "1",
+      "6",
+      "2",
+      "30"
+    ],
+    "answer_index": 2,
+    "correct_answer": "2",
+    "explanation": "Meet is gcd(6,10)=2.",
+    "skill": "Compute gcd/lcm as meet/join"
+  },
+  {
+    "id": "PL083",
+    "level": "Hard",
+    "topic": "Hasse diagram",
+    "question": "For a finite poset, the number of edges in its Hasse diagram equals:",
+    "options": [
+      "Number of all ordered pairs",
+      "Number of chains",
+      "Number of cover relations",
+      "Number of elements minus one always"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Number of cover relations",
+    "explanation": "Only cover relations are represented as edges.",
+    "skill": "Count Hasse diagram edges"
+  },
+  {
+    "id": "PL084",
+    "level": "Hard",
+    "topic": "Lattice",
+    "question": "Which statement about a lattice is always true?",
+    "options": [
+      "Every lattice is distributive",
+      "Every pair is comparable",
+      "Every pair has a unique meet and join",
+      "Every element has a complement"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Every pair has a unique meet and join",
+    "explanation": "Meet and join are unique by their definitions when they exist.",
+    "skill": "Recognize lattice definition"
+  },
+  {
+    "id": "PL085",
+    "level": "Hard",
+    "topic": "Complemented lattice",
+    "question": "A bounded lattice has 0 and 1. If a∧b=0 and a∨b=1, then b is:",
+    "options": [
+      "Always the least element",
+      "Always equal to a",
+      "A cover of a",
+      "A complement of a"
+    ],
+    "answer_index": 3,
+    "correct_answer": "A complement of a",
+    "explanation": "This is the definition of a complement of a.",
+    "skill": "Reason about complements"
+  },
+  {
+    "id": "PL086",
+    "level": "Hard",
+    "topic": "Types of lattices",
+    "question": "Which lattice is distributive but not complemented?",
+    "options": [
+      "The four-element Boolean lattice",
+      "The diamond lattice M3",
+      "A three-element chain",
+      "A one-element lattice"
+    ],
+    "answer_index": 2,
+    "correct_answer": "A three-element chain",
+    "explanation": "A chain is distributive; the middle element of a 3-chain has no complement.",
+    "skill": "Classify lattice types"
+  },
+  {
+    "id": "PL087",
+    "level": "Hard",
+    "topic": "Boolean lattice",
+    "question": "Which structure is a Boolean lattice?",
+    "options": [
+      "P({x,y}) under inclusion",
+      "Divisors of 12 under divisibility",
+      "A five-element chain",
+      "The diamond M3"
+    ],
+    "answer_index": 0,
+    "correct_answer": "P({x,y}) under inclusion",
+    "explanation": "A power set under inclusion is Boolean.",
+    "skill": "Recognize Boolean lattices"
+  },
+  {
+    "id": "PL088",
+    "level": "Hard",
+    "topic": "Isomorphism",
+    "question": "Two finite lattices have the same number of elements. This alone proves they are:",
+    "options": [
+      "Not isomorphic",
+      "Both Boolean",
+      "Neither; more structure must be checked",
+      "Isomorphic"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Neither; more structure must be checked",
+    "explanation": "Cardinality equality alone does not preserve order or operations.",
+    "skill": "Reason about lattice isomorphism"
+  },
+  {
+    "id": "PL089",
+    "level": "Hard",
+    "topic": "Isomorphism",
+    "question": "An isomorphism f between lattices must satisfy which identity?",
+    "options": [
+      "f(a∨b)=f(a) always",
+      "f(a)=a for every a",
+      "f(a∨b)=f(a)∧f(b) only",
+      "f(a∧b)=f(a)∧f(b) and f(a∨b)=f(a)∨f(b)"
+    ],
+    "answer_index": 3,
+    "correct_answer": "f(a∧b)=f(a)∧f(b) and f(a∨b)=f(a)∨f(b)",
+    "explanation": "A lattice isomorphism preserves both meet and join.",
+    "skill": "Reason about lattice isomorphism"
+  },
+  {
+    "id": "PL090",
+    "level": "Hard",
+    "topic": "Chain",
+    "question": "A chain with n elements has how many nonempty chains as subsets?",
+    "options": [
+      "n!",
+      "n",
+      "n²",
+      "2^n−1"
+    ],
+    "answer_index": 3,
+    "correct_answer": "2^n−1",
+    "explanation": "Every subset of a chain is a chain, so there are 2^n−1 nonempty subsets.",
+    "skill": "Identify chains"
+  },
+  {
+    "id": "PL091",
+    "level": "Hard",
+    "topic": "Antichain",
+    "question": "For a three-element antichain, how many comparable pairs of distinct elements are there?",
+    "options": [
+      "6",
+      "0",
+      "3",
+      "1"
+    ],
+    "answer_index": 1,
+    "correct_answer": "0",
+    "explanation": "No distinct elements are comparable in an antichain.",
+    "skill": "Identify antichains"
+  },
+  {
+    "id": "PL092",
+    "level": "Hard",
+    "topic": "Greatest/maximal",
+    "question": "If a poset has a greatest element, then it is also:",
+    "options": [
+      "Incomparable with all",
+      "Below every element",
+      "A maximal element",
+      "The only minimal element"
+    ],
+    "answer_index": 2,
+    "correct_answer": "A maximal element",
+    "explanation": "Nothing lies strictly above the greatest element, so it is maximal.",
+    "skill": "Relate greatest and maximal elements"
+  },
+  {
+    "id": "PL093",
+    "level": "Hard",
+    "topic": "Least/minimal",
+    "question": "If a poset has a least element, it is necessarily:",
+    "options": [
+      "Incomparable with all",
+      "A maximal element",
+      "A minimal element",
+      "A complement of 1"
+    ],
+    "answer_index": 2,
+    "correct_answer": "A minimal element",
+    "explanation": "No element is strictly below the least element.",
+    "skill": "Relate least and minimal elements"
+  },
+  {
+    "id": "PL094",
+    "level": "Hard",
+    "topic": "Boolean lattice",
+    "question": "Which relation on P({1,2}) makes it a Boolean lattice?",
+    "options": [
+      "Proper subset ⊂",
+      "Set equality only",
+      "Disjointness",
+      "Subset ⊆"
+    ],
+    "answer_index": 3,
+    "correct_answer": "Subset ⊆",
+    "explanation": "Subset inclusion is the partial order for the Boolean lattice.",
+    "skill": "Recognize Boolean lattices"
+  },
+  {
+    "id": "PL095",
+    "level": "Hard",
+    "topic": "Divisibility lattice",
+    "question": "For the lattice of divisors of 24, what is 8∨6?",
+    "options": [
+      "2",
+      "24",
+      "12",
+      "6"
+    ],
+    "answer_index": 1,
+    "correct_answer": "24",
+    "explanation": "lcm(8,6)=24.",
+    "skill": "Compute gcd/lcm as meet/join"
+  },
+  {
+    "id": "PL096",
+    "level": "Hard",
+    "topic": "Divisibility lattice",
+    "question": "For the lattice of divisors of 24, what is 8∧6?",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "6"
+    ],
+    "answer_index": 2,
+    "correct_answer": "2",
+    "explanation": "gcd(8,6)=2.",
+    "skill": "Compute gcd/lcm as meet/join"
+  },
+  {
+    "id": "PL097",
+    "level": "Hard",
+    "topic": "Sublattice",
+    "question": "Which subset of a lattice is guaranteed to be a sublattice?",
+    "options": [
+      "A nonempty subset closed under meet and join",
+      "Any chain",
+      "Any subset containing 1",
+      "Any subset containing 0"
+    ],
+    "answer_index": 0,
+    "correct_answer": "A nonempty subset closed under meet and join",
+    "explanation": "Closure under both operations is the defining requirement.",
+    "skill": "Check sublattice closure"
+  },
+  {
+    "id": "PL098",
+    "level": "Hard",
+    "topic": "Lattice definition",
+    "question": "A poset is a lattice if every pair has a least upper bound and:",
+    "options": [
+      "A unique cover",
+      "A chain",
+      "A complement",
+      "A greatest lower bound"
+    ],
+    "answer_index": 3,
+    "correct_answer": "A greatest lower bound",
+    "explanation": "A lattice requires both join and meet for every pair.",
+    "skill": "Recognize lattice definition"
+  },
+  {
+    "id": "PL099",
+    "level": "Hard",
+    "topic": "Applications",
+    "question": "Which real-world model best fits a lattice of permissions?",
+    "options": [
+      "A single numerical average",
+      "Temperature values with no comparison",
+      "Permission sets ordered by inclusion, combined by union/intersection",
+      "A random list of passwords"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Permission sets ordered by inclusion, combined by union/intersection",
+    "explanation": "Access-right sets can be combined with union and intersection.",
+    "skill": "Model real-world lattices"
+  },
+  {
+    "id": "PL100",
+    "level": "Hard",
+    "topic": "Lattice laws",
+    "question": "For lattice elements a≤b, which must hold?",
+    "options": [
+      "a∨b=0 and a∧b=1",
+      "a∨b=b and a∧b=a",
+      "a∨b and a∧b are undefined",
+      "a∨b=a and a∧b=b"
+    ],
+    "answer_index": 1,
+    "correct_answer": "a∨b=b and a∧b=a",
+    "explanation": "Join is the larger element and meet is the smaller.",
+    "skill": "Apply lattice laws"
+  },
+  {
+    "id": "PL101",
+    "level": "Hard",
+    "topic": "Antichain",
+    "question": "Which set is an antichain in P({1,2,3}) under ⊆?",
+    "options": [
+      "{{1},{1,2},{1,2,3}}",
+      "{{1},{2},{3}}",
+      "{∅,{1}}",
+      "{∅,{1},{1,2}}"
+    ],
+    "answer_index": 1,
+    "correct_answer": "{{1},{2},{3}}",
+    "explanation": "The three distinct singleton sets are pairwise incomparable.",
+    "skill": "Identify antichains"
+  },
+  {
+    "id": "PL102",
+    "level": "Hard",
+    "topic": "Chain",
+    "question": "Which of these is a chain in P({1,2,3}) under ⊆?",
+    "options": [
+      "{∅,{1},{1,2},{1,2,3}}",
+      "{ {1},{2} }",
+      "{{1,2},{2,3}}",
+      "{{1},{2},{1,2}}"
+    ],
+    "answer_index": 0,
+    "correct_answer": "{∅,{1},{1,2},{1,2,3}}",
+    "explanation": "Each set is contained in the next.",
+    "skill": "Identify chains"
+  },
+  {
+    "id": "PL103",
+    "level": "Hard",
+    "topic": "Order and operations",
+    "question": "In a lattice, if a∧b=a, then:",
+    "options": [
+      "b≤a is necessarily false",
+      "a≤b",
+      "a∨b=a",
+      "a and b are incomparable"
+    ],
+    "answer_index": 1,
+    "correct_answer": "a≤b",
+    "explanation": "a∧b=a is equivalent to a≤b.",
+    "skill": "Relate order to meet and join"
+  },
+  {
+    "id": "PL104",
+    "level": "Hard",
+    "topic": "Order and operations",
+    "question": "In a lattice, if a∨b=b, then:",
+    "options": [
+      "a and b are incomparable",
+      "b≤a",
+      "a∧b=b always",
+      "a≤b"
+    ],
+    "answer_index": 3,
+    "correct_answer": "a≤b",
+    "explanation": "a∨b=b is equivalent to a≤b.",
+    "skill": "Relate order to meet and join"
+  },
+  {
+    "id": "PL105",
+    "level": "Hard",
+    "topic": "Isomorphism",
+    "question": "Which statement about lattice isomorphism is false?",
+    "options": [
+      "It preserves the order structure",
+      "It only requires equal cardinality",
+      "It must be a bijection",
+      "It preserves meet and join"
+    ],
+    "answer_index": 1,
+    "correct_answer": "It only requires equal cardinality",
+    "explanation": "Equal size is not enough; the structure must be preserved.",
+    "skill": "Reason about lattice isomorphism"
+  },
+  {
+    "id": "PL106",
+    "level": "Hard",
+    "topic": "Complemented lattice",
+    "question": "In a finite lattice, if every element has a complement, the lattice is necessarily:",
+    "options": [
+      "An antichain",
+      "Distributive",
+      "Complemented",
+      "A chain"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Complemented",
+    "explanation": "Having a complement for each element is precisely complementedness; distributivity does not follow automatically.",
+    "skill": "Reason about complements"
+  }
+]

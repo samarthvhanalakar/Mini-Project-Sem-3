@@ -1,0 +1,1746 @@
+[
+  {
+    "id": "FL001",
+    "level": "Easy",
+    "topic": "Basic connectives",
+    "question": "If p is true and q is false, what is the value of p ∧ q?",
+    "options": [
+      "True",
+      "False",
+      "Both true and false",
+      "Cannot be determined"
+    ],
+    "answer_index": 1,
+    "correct_answer": "False",
+    "explanation": "A conjunction is true only when both statements are true.",
+    "skill": "Evaluate a conjunction"
+  },
+  {
+    "id": "FL002",
+    "level": "Easy",
+    "topic": "Basic connectives",
+    "question": "If p is false and q is true, what is the value of p ∨ q?",
+    "options": [
+      "False",
+      "True",
+      "Cannot be determined",
+      "Equivalent to p"
+    ],
+    "answer_index": 1,
+    "correct_answer": "True",
+    "explanation": "A disjunction is true when at least one statement is true.",
+    "skill": "Evaluate a disjunction"
+  },
+  {
+    "id": "FL003",
+    "level": "Easy",
+    "topic": "Basic connectives",
+    "question": "When is p → q false?",
+    "options": [
+      "p false, q false",
+      "p false, q true",
+      "p true, q false",
+      "p true, q true"
+    ],
+    "answer_index": 2,
+    "correct_answer": "p true, q false",
+    "explanation": "An implication is false only when its antecedent is true and its consequent is false.",
+    "skill": "Recall implication truth condition"
+  },
+  {
+    "id": "FL004",
+    "level": "Easy",
+    "topic": "Basic connectives",
+    "question": "What is the value of ¬p when p is false?",
+    "options": [
+      "False",
+      "True",
+      "Both",
+      "Undefined"
+    ],
+    "answer_index": 1,
+    "correct_answer": "True",
+    "explanation": "Negation reverses the truth value.",
+    "skill": "Evaluate negation"
+  },
+  {
+    "id": "FL005",
+    "level": "Easy",
+    "topic": "Basic connectives",
+    "question": "The connective p ↔ q is true when:",
+    "options": [
+      "p and q have different truth values",
+      "p is true only",
+      "p and q have the same truth value",
+      "q is false only"
+    ],
+    "answer_index": 2,
+    "correct_answer": "p and q have the same truth value",
+    "explanation": "A biconditional is true when both sides agree.",
+    "skill": "Understand biconditional"
+  },
+  {
+    "id": "FL006",
+    "level": "Easy",
+    "topic": "Basic connectives",
+    "question": "Which symbol commonly represents logical conjunction?",
+    "options": [
+      "∨",
+      "→",
+      "∧",
+      "¬"
+    ],
+    "answer_index": 2,
+    "correct_answer": "∧",
+    "explanation": "The symbol ∧ means 'and'.",
+    "skill": "Recognize symbols"
+  },
+  {
+    "id": "FL007",
+    "level": "Easy",
+    "topic": "Basic connectives",
+    "question": "Which symbol represents logical negation?",
+    "options": [
+      "¬",
+      "↔",
+      "∧",
+      "∨"
+    ],
+    "answer_index": 0,
+    "correct_answer": "¬",
+    "explanation": "The symbol ¬ means 'not'.",
+    "skill": "Recognize symbols"
+  },
+  {
+    "id": "FL008",
+    "level": "Easy",
+    "topic": "Truth tables",
+    "question": "How many rows are in a truth table for three propositional variables?",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer_index": 2,
+    "correct_answer": "8",
+    "explanation": "For n variables, a complete truth table has 2ⁿ rows; 2³ = 8.",
+    "skill": "Count truth-table rows"
+  },
+  {
+    "id": "FL009",
+    "level": "Easy",
+    "topic": "Truth tables",
+    "question": "If p and q are both true, what is p → q?",
+    "options": [
+      "True",
+      "False",
+      "Undefined",
+      "Cannot be determined"
+    ],
+    "answer_index": 0,
+    "correct_answer": "True",
+    "explanation": "An implication with true antecedent and true consequent is true.",
+    "skill": "Evaluate implication"
+  },
+  {
+    "id": "FL010",
+    "level": "Easy",
+    "topic": "Truth tables",
+    "question": "If p is true, what is p ∨ ¬p?",
+    "options": [
+      "False",
+      "True",
+      "Depends on q",
+      "Undefined"
+    ],
+    "answer_index": 1,
+    "correct_answer": "True",
+    "explanation": "A statement or its negation is always true; this is the law of excluded middle.",
+    "skill": "Recognize tautology"
+  },
+  {
+    "id": "FL011",
+    "level": "Easy",
+    "topic": "Laws of logic",
+    "question": "Which is equivalent to ¬¬p?",
+    "options": [
+      "¬p",
+      "p",
+      "p ∧ ¬p",
+      "p ∨ ¬p"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p",
+    "explanation": "Double negation removes the two negations.",
+    "skill": "Apply double negation"
+  },
+  {
+    "id": "FL012",
+    "level": "Easy",
+    "topic": "Laws of logic",
+    "question": "Which law is represented by p ∧ q ≡ q ∧ p?",
+    "options": [
+      "Associative",
+      "Distributive",
+      "Commutative",
+      "Identity"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Commutative",
+    "explanation": "The commutative law permits swapping the order of operands.",
+    "skill": "Identify equivalence law"
+  },
+  {
+    "id": "FL013",
+    "level": "Easy",
+    "topic": "Laws of logic",
+    "question": "Which expression is equivalent to p ∨ F?",
+    "options": [
+      "F",
+      "T",
+      "p",
+      "¬p"
+    ],
+    "answer_index": 2,
+    "correct_answer": "p",
+    "explanation": "False is the identity element for disjunction.",
+    "skill": "Apply identity law"
+  },
+  {
+    "id": "FL014",
+    "level": "Easy",
+    "topic": "Laws of logic",
+    "question": "Which expression is equivalent to p ∧ T?",
+    "options": [
+      "T",
+      "F",
+      "p",
+      "¬p"
+    ],
+    "answer_index": 2,
+    "correct_answer": "p",
+    "explanation": "True is the identity element for conjunction.",
+    "skill": "Apply identity law"
+  },
+  {
+    "id": "FL015",
+    "level": "Easy",
+    "topic": "Laws of logic",
+    "question": "Which expression is always false?",
+    "options": [
+      "p ∨ ¬p",
+      "p ∧ ¬p",
+      "p → p",
+      "p ↔ p"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p ∧ ¬p",
+    "explanation": "A proposition cannot be true and false simultaneously.",
+    "skill": "Recognize contradiction"
+  },
+  {
+    "id": "FL016",
+    "level": "Easy",
+    "topic": "Logical implication",
+    "question": "Which is the contrapositive of p → q?",
+    "options": [
+      "q → p",
+      "¬p → ¬q",
+      "¬q → ¬p",
+      "p → ¬q"
+    ],
+    "answer_index": 2,
+    "correct_answer": "¬q → ¬p",
+    "explanation": "The contrapositive reverses the statements and negates both.",
+    "skill": "Identify contrapositive"
+  },
+  {
+    "id": "FL017",
+    "level": "Easy",
+    "topic": "Logical implication",
+    "question": "Which statement is equivalent to p → q?",
+    "options": [
+      "p ∧ q",
+      "¬p ∨ q",
+      "p ∨ ¬q",
+      "¬p ∧ q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "¬p ∨ q",
+    "explanation": "Implication can be rewritten as ¬p ∨ q.",
+    "skill": "Rewrite implication"
+  },
+  {
+    "id": "FL018",
+    "level": "Easy",
+    "topic": "Rules of inference",
+    "question": "From p and p → q, what follows?",
+    "options": [
+      "¬q",
+      "q",
+      "¬p",
+      "p ↔ q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "q",
+    "explanation": "Modus ponens derives q from p and p → q.",
+    "skill": "Apply modus ponens"
+  },
+  {
+    "id": "FL019",
+    "level": "Easy",
+    "topic": "Rules of inference",
+    "question": "From p → q and ¬q, what follows?",
+    "options": [
+      "p",
+      "q",
+      "¬p",
+      "¬q → p"
+    ],
+    "answer_index": 2,
+    "correct_answer": "¬p",
+    "explanation": "Modus tollens gives ¬p from p → q and ¬q.",
+    "skill": "Apply modus tollens"
+  },
+  {
+    "id": "FL020",
+    "level": "Easy",
+    "topic": "Quantifiers",
+    "question": "The symbol ∀ means:",
+    "options": [
+      "There exists",
+      "For every",
+      "There is exactly one",
+      "Not"
+    ],
+    "answer_index": 1,
+    "correct_answer": "For every",
+    "explanation": "The universal quantifier means 'for all' or 'for every'.",
+    "skill": "Recognize quantifier"
+  },
+  {
+    "id": "FL021",
+    "level": "Easy",
+    "topic": "Quantifiers",
+    "question": "The symbol ∃ means:",
+    "options": [
+      "For all",
+      "Therefore",
+      "There exists",
+      "Equivalent to"
+    ],
+    "answer_index": 2,
+    "correct_answer": "There exists",
+    "explanation": "The existential quantifier means 'there exists'.",
+    "skill": "Recognize quantifier"
+  },
+  {
+    "id": "FL022",
+    "level": "Easy",
+    "topic": "Quantifiers",
+    "question": "What is the negation of ∀x P(x)?",
+    "options": [
+      "∀x ¬P(x)",
+      "∃x ¬P(x)",
+      "∃x P(x)",
+      "¬∃x ¬P(x)"
+    ],
+    "answer_index": 1,
+    "correct_answer": "∃x ¬P(x)",
+    "explanation": "Negating a universal statement produces an existential statement with a negated predicate.",
+    "skill": "Negate quantifier"
+  },
+  {
+    "id": "FL023",
+    "level": "Easy",
+    "topic": "Quantifiers",
+    "question": "What is the negation of ∃x P(x)?",
+    "options": [
+      "∀x ¬P(x)",
+      "∃x ¬P(x)",
+      "∀x P(x)",
+      "¬∀x P(x)"
+    ],
+    "answer_index": 0,
+    "correct_answer": "∀x ¬P(x)",
+    "explanation": "Negating an existential statement means no object satisfies P.",
+    "skill": "Negate quantifier"
+  },
+  {
+    "id": "FL024",
+    "level": "Easy",
+    "topic": "Mathematical induction",
+    "question": "What is the first usual step in induction for n ≥ 1?",
+    "options": [
+      "Assume P(k+1)",
+      "Check the base case P(1)",
+      "Prove the statement false",
+      "Check only the last value"
+    ],
+    "answer_index": 1,
+    "correct_answer": "Check the base case P(1)",
+    "explanation": "The base case establishes the starting point.",
+    "skill": "Identify induction steps"
+  },
+  {
+    "id": "FL025",
+    "level": "Easy",
+    "topic": "Mathematical induction",
+    "question": "In the inductive step, one usually assumes:",
+    "options": [
+      "P(k+1) is false",
+      "P(k) is true and proves P(k+1)",
+      "P(n) for all n directly",
+      "The base case is unnecessary"
+    ],
+    "answer_index": 1,
+    "correct_answer": "P(k) is true and proves P(k+1)",
+    "explanation": "The induction hypothesis is P(k), used to establish P(k+1).",
+    "skill": "Identify induction hypothesis"
+  },
+  {
+    "id": "FL026",
+    "level": "Easy",
+    "topic": "Mathematical induction",
+    "question": "Which is the base case for a claim stated for every integer n ≥ 0?",
+    "options": [
+      "n = −1",
+      "n = 0",
+      "n = 1 only",
+      "n = k"
+    ],
+    "answer_index": 1,
+    "correct_answer": "n = 0",
+    "explanation": "The starting value is n = 0.",
+    "skill": "Choose base case"
+  },
+  {
+    "id": "FL027",
+    "level": "Easy",
+    "topic": "Mathematical induction",
+    "question": "To prove 1 + 2 + … + n = n(n+1)/2 by induction, what expression is considered at the next step?",
+    "options": [
+      "k(k−1)/2",
+      "k(k+1)/2 + (k+1)",
+      "(k+1)(k−1)/2",
+      "k² only"
+    ],
+    "answer_index": 1,
+    "correct_answer": "k(k+1)/2 + (k+1)",
+    "explanation": "Add the next term k+1 to the assumed sum through k.",
+    "skill": "Set up inductive step"
+  },
+  {
+    "id": "FL028",
+    "level": "Easy",
+    "topic": "Normal forms",
+    "question": "A literal is:",
+    "options": [
+      "Any complete truth table",
+      "A variable or its negation",
+      "A conjunction of clauses only",
+      "A quantifier"
+    ],
+    "answer_index": 1,
+    "correct_answer": "A variable or its negation",
+    "explanation": "A literal is a propositional variable or its negation.",
+    "skill": "Recognize literal"
+  },
+  {
+    "id": "FL029",
+    "level": "Easy",
+    "topic": "Normal forms",
+    "question": "CNF is a conjunction of:",
+    "options": [
+      "Conjunctions of variables only",
+      "Disjunctions of literals (clauses)",
+      "Implications only",
+      "Quantifiers"
+    ],
+    "answer_index": 1,
+    "correct_answer": "Disjunctions of literals (clauses)",
+    "explanation": "Conjunctive normal form is an AND of OR-clauses.",
+    "skill": "Recognize CNF"
+  },
+  {
+    "id": "FL030",
+    "level": "Easy",
+    "topic": "Normal forms",
+    "question": "DNF is a disjunction of:",
+    "options": [
+      "Conjunctions of literals (terms)",
+      "Disjunctions only",
+      "Implications",
+      "Truth-table rows only"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Conjunctions of literals (terms)",
+    "explanation": "Disjunctive normal form is an OR of AND-terms.",
+    "skill": "Recognize DNF"
+  },
+  {
+    "id": "FL031",
+    "level": "Medium",
+    "topic": "Truth tables",
+    "question": "If p = F, q = T, and r = F, evaluate (p ∨ q) ∧ ¬r.",
+    "options": [
+      "True",
+      "False",
+      "Equivalent to p",
+      "Cannot be determined"
+    ],
+    "answer_index": 0,
+    "correct_answer": "True",
+    "explanation": "p ∨ q is true and ¬r is true, so their conjunction is true.",
+    "skill": "Evaluate compound formula"
+  },
+  {
+    "id": "FL032",
+    "level": "Medium",
+    "topic": "Truth tables",
+    "question": "If p → q is false, what are p and q?",
+    "options": [
+      "p=T, q=T",
+      "p=T, q=F",
+      "p=F, q=T",
+      "p=F, q=F"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p=T, q=F",
+    "explanation": "The only false row of implication is T → F.",
+    "skill": "Infer truth values"
+  },
+  {
+    "id": "FL033",
+    "level": "Medium",
+    "topic": "Truth tables",
+    "question": "For p=F and q=F, evaluate (p → q) ↔ (¬p ∨ q).",
+    "options": [
+      "True",
+      "False",
+      "Both",
+      "Cannot be determined"
+    ],
+    "answer_index": 0,
+    "correct_answer": "True",
+    "explanation": "Both sides are true, so the biconditional is true.",
+    "skill": "Compare equivalent formulas"
+  },
+  {
+    "id": "FL034",
+    "level": "Medium",
+    "topic": "Truth tables",
+    "question": "How many rows are required for a truth table with four variables?",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "answer_index": 3,
+    "correct_answer": "16",
+    "explanation": "A full table has 2⁴ = 16 rows.",
+    "skill": "Count truth-table rows"
+  },
+  {
+    "id": "FL035",
+    "level": "Medium",
+    "topic": "Truth tables",
+    "question": "If p ↔ q is false and p is true, what is q?",
+    "options": [
+      "True",
+      "False",
+      "Both",
+      "Cannot be determined"
+    ],
+    "answer_index": 1,
+    "correct_answer": "False",
+    "explanation": "A false biconditional means the truth values differ.",
+    "skill": "Infer truth values"
+  },
+  {
+    "id": "FL036",
+    "level": "Medium",
+    "topic": "Laws of logic",
+    "question": "Simplify (p ∧ T) ∨ F.",
+    "options": [
+      "T",
+      "F",
+      "p",
+      "¬p"
+    ],
+    "answer_index": 2,
+    "correct_answer": "p",
+    "explanation": "p ∧ T = p and p ∨ F = p.",
+    "skill": "Combine identity laws"
+  },
+  {
+    "id": "FL037",
+    "level": "Medium",
+    "topic": "Laws of logic",
+    "question": "Which expression is equivalent to p ∧ (q ∨ r)?",
+    "options": [
+      "(p ∧ q) ∨ (p ∧ r)",
+      "(p ∨ q) ∧ r",
+      "(p ∧ q) ∧ r",
+      "p ∨ (q ∧ r)"
+    ],
+    "answer_index": 0,
+    "correct_answer": "(p ∧ q) ∨ (p ∧ r)",
+    "explanation": "This is the distributive law of conjunction over disjunction.",
+    "skill": "Apply distributive law"
+  },
+  {
+    "id": "FL038",
+    "level": "Medium",
+    "topic": "Laws of logic",
+    "question": "Simplify p ∨ (p ∧ q).",
+    "options": [
+      "q",
+      "p",
+      "p ∧ q",
+      "p ∨ q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p",
+    "explanation": "By absorption, p ∨ (p ∧ q) ≡ p.",
+    "skill": "Apply absorption"
+  },
+  {
+    "id": "FL039",
+    "level": "Medium",
+    "topic": "Laws of logic",
+    "question": "Which is equivalent to ¬(p ∨ q)?",
+    "options": [
+      "¬p ∨ ¬q",
+      "¬p ∧ ¬q",
+      "p ∧ q",
+      "p ∨ ¬q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "¬p ∧ ¬q",
+    "explanation": "De Morgan's law changes OR to AND and negates each operand.",
+    "skill": "Apply De Morgan"
+  },
+  {
+    "id": "FL040",
+    "level": "Medium",
+    "topic": "Laws of logic",
+    "question": "Which is equivalent to (p → q) ∧ p?",
+    "options": [
+      "p ∧ q",
+      "¬p ∧ q",
+      "p ∨ q",
+      "¬q"
+    ],
+    "answer_index": 0,
+    "correct_answer": "p ∧ q",
+    "explanation": "Replace p → q by ¬p ∨ q; with p true, q must be true.",
+    "skill": "Simplify implication"
+  },
+  {
+    "id": "FL041",
+    "level": "Medium",
+    "topic": "Logical implication",
+    "question": "Which is the converse of p → q?",
+    "options": [
+      "¬q → ¬p",
+      "q → p",
+      "¬p → ¬q",
+      "p ↔ q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "q → p",
+    "explanation": "The converse swaps antecedent and consequent without negating them.",
+    "skill": "Distinguish converse"
+  },
+  {
+    "id": "FL042",
+    "level": "Medium",
+    "topic": "Logical implication",
+    "question": "Which statement is logically equivalent to the contrapositive of p → q?",
+    "options": [
+      "p → q",
+      "q → p",
+      "p ∧ q",
+      "p ∨ q"
+    ],
+    "answer_index": 0,
+    "correct_answer": "p → q",
+    "explanation": "A conditional and its contrapositive are equivalent.",
+    "skill": "Use contraposition"
+  },
+  {
+    "id": "FL043",
+    "level": "Medium",
+    "topic": "Logical implication",
+    "question": "If p → q is true and p is true, which statement must be true?",
+    "options": [
+      "¬q",
+      "q",
+      "¬p",
+      "q → p"
+    ],
+    "answer_index": 1,
+    "correct_answer": "q",
+    "explanation": "Modus ponens gives q.",
+    "skill": "Apply implication"
+  },
+  {
+    "id": "FL044",
+    "level": "Medium",
+    "topic": "Rules of inference",
+    "question": "Given p → q, q → r, and p, what follows?",
+    "options": [
+      "¬r",
+      "r",
+      "¬p",
+      "q ∧ ¬r"
+    ],
+    "answer_index": 1,
+    "correct_answer": "r",
+    "explanation": "From p infer q, then from q infer r.",
+    "skill": "Chain inference"
+  },
+  {
+    "id": "FL045",
+    "level": "Medium",
+    "topic": "Rules of inference",
+    "question": "Given p ∨ q and ¬p, what follows?",
+    "options": [
+      "p",
+      "¬q",
+      "q",
+      "p ∧ q"
+    ],
+    "answer_index": 2,
+    "correct_answer": "q",
+    "explanation": "Disjunctive syllogism eliminates p, leaving q.",
+    "skill": "Apply disjunctive syllogism"
+  },
+  {
+    "id": "FL046",
+    "level": "Medium",
+    "topic": "Rules of inference",
+    "question": "Given p → q and q → r, which conclusion follows?",
+    "options": [
+      "r → p",
+      "p → r",
+      "q → p",
+      "r → q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p → r",
+    "explanation": "Hypothetical syllogism chains the implications.",
+    "skill": "Chain implications"
+  },
+  {
+    "id": "FL047",
+    "level": "Medium",
+    "topic": "Rules of inference",
+    "question": "Which argument form is invalid: p → q, q, therefore p?",
+    "options": [
+      "Modus ponens",
+      "Modus tollens",
+      "Affirming the consequent",
+      "Disjunctive syllogism"
+    ],
+    "answer_index": 2,
+    "correct_answer": "Affirming the consequent",
+    "explanation": "q may be true for reasons other than p; this is affirming the consequent.",
+    "skill": "Detect fallacy"
+  },
+  {
+    "id": "FL048",
+    "level": "Medium",
+    "topic": "Rules of inference",
+    "question": "Given p ∨ q and ¬q, what follows?",
+    "options": [
+      "p",
+      "¬p",
+      "q",
+      "p → q"
+    ],
+    "answer_index": 0,
+    "correct_answer": "p",
+    "explanation": "Disjunctive syllogism leaves p.",
+    "skill": "Apply disjunctive syllogism"
+  },
+  {
+    "id": "FL049",
+    "level": "Medium",
+    "topic": "Quantifiers",
+    "question": "Over the integers, which statement is true?",
+    "options": [
+      "∀x ∃y (x+y=0)",
+      "∃y ∀x (x+y=0)",
+      "∀x (x>0)",
+      "∃x (x²<0)"
+    ],
+    "answer_index": 0,
+    "correct_answer": "∀x ∃y (x+y=0)",
+    "explanation": "For every integer x, choosing y=−x satisfies x+y=0.",
+    "skill": "Interpret quantifier order"
+  },
+  {
+    "id": "FL050",
+    "level": "Medium",
+    "topic": "Quantifiers",
+    "question": "What is the negation of ∀x (P(x) → Q(x))?",
+    "options": [
+      "∃x (P(x) → ¬Q(x))",
+      "∃x (P(x) ∧ ¬Q(x))",
+      "∀x (P(x) ∧ ¬Q(x))",
+      "∃x (¬P(x) ∨ Q(x))"
+    ],
+    "answer_index": 1,
+    "correct_answer": "∃x (P(x) ∧ ¬Q(x))",
+    "explanation": "Negation changes ∀ to ∃ and negates the implication: P ∧ ¬Q.",
+    "skill": "Negate quantified implication"
+  },
+  {
+    "id": "FL051",
+    "level": "Medium",
+    "topic": "Quantifiers",
+    "question": "Over the real numbers, ∀x ∃y (y>x) is:",
+    "options": [
+      "True",
+      "False",
+      "True only for positive x",
+      "Undefined"
+    ],
+    "answer_index": 0,
+    "correct_answer": "True",
+    "explanation": "For any real x, y=x+1 is a real number greater than x.",
+    "skill": "Reason about domains"
+  },
+  {
+    "id": "FL052",
+    "level": "Medium",
+    "topic": "Quantifiers",
+    "question": "Which is equivalent to 'Some student solved every question'?",
+    "options": [
+      "∀ student ∃ question solved",
+      "∃ student ∀ question solved",
+      "∀ question ∃ student failed",
+      "∃ question ∀ student solved"
+    ],
+    "answer_index": 1,
+    "correct_answer": "∃ student ∀ question solved",
+    "explanation": "One particular student must solve all questions.",
+    "skill": "Translate natural language"
+  },
+  {
+    "id": "FL053",
+    "level": "Medium",
+    "topic": "Quantifiers",
+    "question": "The negation of 'No student was absent' is:",
+    "options": [
+      "Every student was absent",
+      "At least one student was absent",
+      "No student attended",
+      "Exactly one student was absent"
+    ],
+    "answer_index": 1,
+    "correct_answer": "At least one student was absent",
+    "explanation": "Negating a universal negative gives existence of at least one absent student.",
+    "skill": "Negate statement"
+  },
+  {
+    "id": "FL054",
+    "level": "Medium",
+    "topic": "Mathematical induction",
+    "question": "If P(1) is true and P(k) implies P(k+1) for every k≥1, what is established?",
+    "options": [
+      "P(n) for all n≥1",
+      "P(n) only for prime n",
+      "P(n) only for n≤k",
+      "Nothing"
+    ],
+    "answer_index": 0,
+    "correct_answer": "P(n) for all n≥1",
+    "explanation": "The base case plus the universal inductive step proves all positive integer cases.",
+    "skill": "Apply induction principle"
+  },
+  {
+    "id": "FL055",
+    "level": "Medium",
+    "topic": "Mathematical induction",
+    "question": "Assume 1+…+k = k(k+1)/2. Which is the correct next sum?",
+    "options": [
+      "k(k+1)/2 − (k+1)",
+      "k(k+1)/2 + (k+1)",
+      "(k+1)(k+2)/2 − k",
+      "k²(k+1)/2"
+    ],
+    "answer_index": 1,
+    "correct_answer": "k(k+1)/2 + (k+1)",
+    "explanation": "Add k+1 to both sides to obtain the sum through k+1.",
+    "skill": "Build induction step"
+  },
+  {
+    "id": "FL056",
+    "level": "Medium",
+    "topic": "Mathematical induction",
+    "question": "What is the correct base case for a claim for all n≥5?",
+    "options": [
+      "n=0",
+      "n=1",
+      "n=5",
+      "n=k"
+    ],
+    "answer_index": 2,
+    "correct_answer": "n=5",
+    "explanation": "The induction must start at the first value in the claim's domain.",
+    "skill": "Choose base case"
+  },
+  {
+    "id": "FL057",
+    "level": "Medium",
+    "topic": "Mathematical induction",
+    "question": "A proof verifies P(1) and P(k)→P(k+1) only for k≥2. What is missing?",
+    "options": [
+      "Nothing",
+      "The step from P(1) to P(2)",
+      "The step from P(4) to P(5)",
+      "A truth table"
+    ],
+    "answer_index": 1,
+    "correct_answer": "The step from P(1) to P(2)",
+    "explanation": "The induction chain cannot advance from the base case P(1) to P(2).",
+    "skill": "Diagnose proof gap"
+  },
+  {
+    "id": "FL058",
+    "level": "Medium",
+    "topic": "Mathematical induction",
+    "question": "Which inequality is commonly used to prove 2ⁿ ≥ n+1 for n≥0 by induction?",
+    "options": [
+      "2(k+1) ≥ k+2, using 2≥1",
+      "2ᵏ < k",
+      "k+1=0",
+      "2ⁿ=n"
+    ],
+    "answer_index": 0,
+    "correct_answer": "2(k+1) ≥ k+2, using 2≥1",
+    "explanation": "From 2ᵏ≥k+1, double to get 2ᵏ⁺¹≥2k+2≥k+2 for k≥0.",
+    "skill": "Reason through induction"
+  },
+  {
+    "id": "FL059",
+    "level": "Medium",
+    "topic": "Normal forms",
+    "question": "Which expression is in CNF?",
+    "options": [
+      "(p ∧ q) ∨ r",
+      "(p ∨ q) ∧ (¬p ∨ r)",
+      "p → q",
+      "¬(p ∧ q) without rewriting"
+    ],
+    "answer_index": 1,
+    "correct_answer": "(p ∨ q) ∧ (¬p ∨ r)",
+    "explanation": "It is a conjunction of disjunctions of literals.",
+    "skill": "Identify CNF"
+  },
+  {
+    "id": "FL060",
+    "level": "Medium",
+    "topic": "Normal forms",
+    "question": "Which expression is in DNF?",
+    "options": [
+      "(p ∨ q) ∧ r",
+      "(p ∧ q) ∨ (¬p ∧ r)",
+      "p → q",
+      "¬(p ∨ q) ∧ r without rewriting"
+    ],
+    "answer_index": 1,
+    "correct_answer": "(p ∧ q) ∨ (¬p ∧ r)",
+    "explanation": "It is a disjunction of conjunctions of literals.",
+    "skill": "Identify DNF"
+  },
+  {
+    "id": "FL061",
+    "level": "Medium",
+    "topic": "Normal forms",
+    "question": "Rewrite p → q without using implication.",
+    "options": [
+      "p ∧ q",
+      "¬p ∨ q",
+      "p ∨ ¬q",
+      "¬p ∧ q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "¬p ∨ q",
+    "explanation": "Implication is equivalent to ¬p ∨ q.",
+    "skill": "Eliminate implication"
+  },
+  {
+    "id": "FL062",
+    "level": "Medium",
+    "topic": "Normal forms",
+    "question": "Which is a clause in CNF?",
+    "options": [
+      "p ∧ q",
+      "p ∨ ¬q ∨ r",
+      "(p ∨ q) ∧ r",
+      "p → q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p ∨ ¬q ∨ r",
+    "explanation": "A clause is a disjunction of literals.",
+    "skill": "Recognize clause"
+  },
+  {
+    "id": "FL063",
+    "level": "Medium",
+    "topic": "Normal forms",
+    "question": "Which is a term in DNF?",
+    "options": [
+      "p ∨ q",
+      "p ∧ ¬q ∧ r",
+      "p → q",
+      "¬(p ∧ q)"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p ∧ ¬q ∧ r",
+    "explanation": "A term is a conjunction of literals.",
+    "skill": "Recognize term"
+  },
+  {
+    "id": "FL064",
+    "level": "Medium",
+    "topic": "Basic connectives",
+    "question": "If p=T, q=F, r=T, evaluate (p ∧ ¬q) → r.",
+    "options": [
+      "True",
+      "False",
+      "Equivalent to q",
+      "Cannot be determined"
+    ],
+    "answer_index": 0,
+    "correct_answer": "True",
+    "explanation": "The antecedent is true and r is true, so the implication is true.",
+    "skill": "Evaluate nested formula"
+  },
+  {
+    "id": "FL065",
+    "level": "Medium",
+    "topic": "Basic connectives",
+    "question": "If p=F, q=T, evaluate ¬p ∧ (p ∨ q).",
+    "options": [
+      "True",
+      "False",
+      "Equivalent to p",
+      "Undefined"
+    ],
+    "answer_index": 0,
+    "correct_answer": "True",
+    "explanation": "¬p is true and p∨q is true, so their conjunction is true.",
+    "skill": "Evaluate nested formula"
+  },
+  {
+    "id": "FL066",
+    "level": "Medium",
+    "topic": "Laws of logic",
+    "question": "Which is equivalent to ¬(p → q)?",
+    "options": [
+      "¬p ∨ q",
+      "p ∧ ¬q",
+      "¬p ∧ q",
+      "p ∨ q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p ∧ ¬q",
+    "explanation": "Since p→q ≡ ¬p∨q, its negation is p∧¬q.",
+    "skill": "Negate implication"
+  },
+  {
+    "id": "FL067",
+    "level": "Medium",
+    "topic": "Laws of logic",
+    "question": "Simplify (p ∧ q) ∨ (p ∧ ¬q).",
+    "options": [
+      "p",
+      "q",
+      "¬p",
+      "p ∧ q"
+    ],
+    "answer_index": 0,
+    "correct_answer": "p",
+    "explanation": "Factor p: p∧(q∨¬q)=p∧T=p.",
+    "skill": "Factor and simplify"
+  },
+  {
+    "id": "FL068",
+    "level": "Medium",
+    "topic": "Logical implication",
+    "question": "If p is sufficient for q, which implication represents this?",
+    "options": [
+      "q → p",
+      "p → q",
+      "p ↔ q",
+      "¬p → q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p → q",
+    "explanation": "'p is sufficient for q' means whenever p holds, q follows.",
+    "skill": "Translate implication"
+  },
+  {
+    "id": "FL069",
+    "level": "Medium",
+    "topic": "Logical implication",
+    "question": "If q is necessary for p, which implication represents this?",
+    "options": [
+      "q → p",
+      "p → q",
+      "p ∧ q",
+      "q ↔ p"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p → q",
+    "explanation": "If q is necessary for p, p cannot hold without q, so p→q.",
+    "skill": "Translate necessary condition"
+  },
+  {
+    "id": "FL070",
+    "level": "Hard",
+    "topic": "Truth tables",
+    "question": "Which formula is a tautology?",
+    "options": [
+      "(p ∧ q) → p",
+      "p ∧ ¬p",
+      "p → ¬p",
+      "p ↔ ¬p"
+    ],
+    "answer_index": 0,
+    "correct_answer": "(p ∧ q) → p",
+    "explanation": "Whenever p∧q is true, p is true; if the antecedent is false, the implication is true.",
+    "skill": "Identify tautology"
+  },
+  {
+    "id": "FL071",
+    "level": "Hard",
+    "topic": "Truth tables",
+    "question": "Which formula is a contradiction?",
+    "options": [
+      "(p → q) ∨ (q → p)",
+      "p ∧ ¬p",
+      "p ∨ ¬p",
+      "p ↔ p"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p ∧ ¬p",
+    "explanation": "p and ¬p cannot both be true.",
+    "skill": "Identify contradiction"
+  },
+  {
+    "id": "FL072",
+    "level": "Hard",
+    "topic": "Truth tables",
+    "question": "For which assignment is (p → q) ∧ p ∧ ¬q true?",
+    "options": [
+      "p=T,q=T",
+      "p=T,q=F",
+      "p=F,q=T",
+      "No assignment"
+    ],
+    "answer_index": 3,
+    "correct_answer": "No assignment",
+    "explanation": "The conjunction requires p→q, p, and ¬q. The latter two make p→q false, so no assignment works.",
+    "skill": "Detect inconsistent conditions"
+  },
+  {
+    "id": "FL073",
+    "level": "Hard",
+    "topic": "Truth tables",
+    "question": "Which formula is equivalent to (p ↔ q)?",
+    "options": [
+      "(p→q) ∧ (q→p)",
+      "(p→q) ∨ (q→p)",
+      "p ∧ ¬q",
+      "p ∨ q"
+    ],
+    "answer_index": 0,
+    "correct_answer": "(p→q) ∧ (q→p)",
+    "explanation": "A biconditional means each statement implies the other.",
+    "skill": "Decompose biconditional"
+  },
+  {
+    "id": "FL074",
+    "level": "Hard",
+    "topic": "Laws of logic",
+    "question": "Simplify (p → q) ∧ (p → ¬q).",
+    "options": [
+      "p",
+      "¬p",
+      "q",
+      "q ∧ ¬q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "¬p",
+    "explanation": "Rewrite as (¬p∨q)∧(¬p∨¬q) ≡ ¬p∨(q∧¬q) ≡ ¬p.",
+    "skill": "Combine implications"
+  },
+  {
+    "id": "FL075",
+    "level": "Hard",
+    "topic": "Laws of logic",
+    "question": "Which is equivalent to ¬[p ∧ (q ∨ r)] in CNF?",
+    "options": [
+      "(¬p ∨ ¬q) ∧ (¬p ∨ ¬r)",
+      "¬p ∧ (¬q ∨ ¬r)",
+      "¬p ∨ (¬q ∧ ¬r)",
+      "(p ∨ ¬q) ∧ (p ∨ ¬r)"
+    ],
+    "answer_index": 0,
+    "correct_answer": "(¬p ∨ ¬q) ∧ (¬p ∨ ¬r)",
+    "explanation": "Apply De Morgan's laws, then distribute OR over AND.",
+    "skill": "Convert to CNF"
+  },
+  {
+    "id": "FL076",
+    "level": "Hard",
+    "topic": "Laws of logic",
+    "question": "Which expression is equivalent to (p ∨ q) ∧ (p ∨ ¬q)?",
+    "options": [
+      "p",
+      "q",
+      "¬p",
+      "p ∨ q"
+    ],
+    "answer_index": 0,
+    "correct_answer": "p",
+    "explanation": "By distributivity this is p ∨ (q∧¬q), which reduces to p.",
+    "skill": "Simplify CNF"
+  },
+  {
+    "id": "FL077",
+    "level": "Hard",
+    "topic": "Laws of logic",
+    "question": "Which formula is equivalent to (p ∧ q) → r?",
+    "options": [
+      "p → (q → r)",
+      "(p→q)→r",
+      "p ∧ (q→r)",
+      "(p∨q)→r"
+    ],
+    "answer_index": 0,
+    "correct_answer": "p → (q → r)",
+    "explanation": "Both are equivalent to ¬p∨¬q∨r.",
+    "skill": "Transform nested implication"
+  },
+  {
+    "id": "FL078",
+    "level": "Hard",
+    "topic": "Logical implication",
+    "question": "Given p→q, q→r, and ¬r, what must follow?",
+    "options": [
+      "p",
+      "q",
+      "¬p",
+      "r"
+    ],
+    "answer_index": 2,
+    "correct_answer": "¬p",
+    "explanation": "From q→r and ¬r infer ¬q; from p→q and ¬q infer ¬p.",
+    "skill": "Chain modus tollens"
+  },
+  {
+    "id": "FL079",
+    "level": "Hard",
+    "topic": "Logical implication",
+    "question": "Which argument commits the fallacy of denying the antecedent?",
+    "options": [
+      "p→q, p, therefore q",
+      "p→q, ¬q, therefore ¬p",
+      "p→q, ¬p, therefore ¬q",
+      "p→q, q, therefore p"
+    ],
+    "answer_index": 2,
+    "correct_answer": "p→q, ¬p, therefore ¬q",
+    "explanation": "From ¬p one cannot infer ¬q; q might be true for another reason.",
+    "skill": "Detect fallacy"
+  },
+  {
+    "id": "FL080",
+    "level": "Hard",
+    "topic": "Logical implication",
+    "question": "Which argument commits the fallacy of affirming the consequent?",
+    "options": [
+      "p→q, p, therefore q",
+      "p→q, q, therefore p",
+      "p→q, ¬q, therefore ¬p",
+      "p∨q, ¬p, therefore q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "p→q, q, therefore p",
+    "explanation": "q being true does not guarantee p is true.",
+    "skill": "Detect fallacy"
+  },
+  {
+    "id": "FL081",
+    "level": "Hard",
+    "topic": "Rules of inference",
+    "question": "Given (p∨q), (¬p∨r), ¬q, which conclusion follows?",
+    "options": [
+      "p",
+      "r",
+      "¬r",
+      "q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "r",
+    "explanation": "From p∨q and ¬q infer p; then ¬p∨r with p true forces r.",
+    "skill": "Multi-step inference"
+  },
+  {
+    "id": "FL082",
+    "level": "Hard",
+    "topic": "Rules of inference",
+    "question": "Given p→q, r→s, p∨r, and ¬q, what follows?",
+    "options": [
+      "s",
+      "r and s",
+      "r",
+      "q"
+    ],
+    "answer_index": 2,
+    "correct_answer": "r",
+    "explanation": "From p→q and ¬q infer ¬p. Then p∨r and ¬p imply r.",
+    "skill": "Combine inference rules"
+  },
+  {
+    "id": "FL083",
+    "level": "Hard",
+    "topic": "Rules of inference",
+    "question": "Which set of premises entails q: p→q, r→p, r?",
+    "options": [
+      "Yes, by two applications of modus ponens",
+      "No, because q is unrelated",
+      "Only if q→p",
+      "Only if p is false"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Yes, by two applications of modus ponens",
+    "explanation": "r gives p via r→p, then q via p→q.",
+    "skill": "Construct proof chain"
+  },
+  {
+    "id": "FL084",
+    "level": "Hard",
+    "topic": "Rules of inference",
+    "question": "From p→q and r→s, can we conclude p∨r → q∨s?",
+    "options": [
+      "Yes",
+      "No, never",
+      "Only if p and r are both true",
+      "Only if q and s are false"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Yes",
+    "explanation": "If p∨r holds, either p gives q or r gives s, so q∨s follows.",
+    "skill": "Validate derived implication"
+  },
+  {
+    "id": "FL085",
+    "level": "Hard",
+    "topic": "Quantifiers",
+    "question": "Over the integers, what is the negation of ∀x ∃y (x<y)?",
+    "options": [
+      "∃x ∀y (x<y)",
+      "∃x ∀y (x≥y)",
+      "∀x ∃y (x≥y)",
+      "∀x ∀y (x<y)"
+    ],
+    "answer_index": 1,
+    "correct_answer": "∃x ∀y (x≥y)",
+    "explanation": "Negate both quantifiers and the predicate: ∃x∀y ¬(x<y), i.e. x≥y for every y.",
+    "skill": "Negate nested quantifiers"
+  },
+  {
+    "id": "FL086",
+    "level": "Hard",
+    "topic": "Quantifiers",
+    "question": "Over the real numbers, is ∃y ∀x (x+y=0) true?",
+    "options": [
+      "Yes, y=0",
+      "Yes, y=−1",
+      "No, one fixed y cannot equal −x for every real x",
+      "Only for x=0"
+    ],
+    "answer_index": 2,
+    "correct_answer": "No, one fixed y cannot equal −x for every real x",
+    "explanation": "The required y depends on x; no single fixed y works for all real x.",
+    "skill": "Distinguish quantifier order"
+  },
+  {
+    "id": "FL087",
+    "level": "Hard",
+    "topic": "Quantifiers",
+    "question": "Which is the logical negation of ∃x ∀y P(x,y)?",
+    "options": [
+      "∀x ∃y ¬P(x,y)",
+      "∃x ∀y ¬P(x,y)",
+      "∀x ∀y P(x,y)",
+      "∃x ∃y ¬P(x,y)"
+    ],
+    "answer_index": 0,
+    "correct_answer": "∀x ∃y ¬P(x,y)",
+    "explanation": "Negate ∃ to ∀, ∀ to ∃, and negate the predicate.",
+    "skill": "Negate nested quantifiers"
+  },
+  {
+    "id": "FL088",
+    "level": "Hard",
+    "topic": "Quantifiers",
+    "question": "Over positive integers, which statement is true?",
+    "options": [
+      "∀x ∃y (y>x)",
+      "∃y ∀x (y>x)",
+      "∀x (x<0)",
+      "∃x ∀y (x>y)"
+    ],
+    "answer_index": 0,
+    "correct_answer": "∀x ∃y (y>x)",
+    "explanation": "For each positive integer x, y=x+1 is a larger positive integer.",
+    "skill": "Reason about domain"
+  },
+  {
+    "id": "FL089",
+    "level": "Hard",
+    "topic": "Quantifiers",
+    "question": "Which statement means 'Every student solved at least one question'?",
+    "options": [
+      "∃ student ∀ question solved",
+      "∀ student ∃ question solved",
+      "∃ question ∀ student solved",
+      "∀ question ∃ student solved"
+    ],
+    "answer_index": 1,
+    "correct_answer": "∀ student ∃ question solved",
+    "explanation": "For each student, there is some question that the student solved.",
+    "skill": "Translate nested quantifiers"
+  },
+  {
+    "id": "FL090",
+    "level": "Hard",
+    "topic": "Mathematical induction",
+    "question": "Which is the correct inductive step for proving 1+3+…+(2n−1)=n²?",
+    "options": [
+      "Assume sum to k is k²; add 2k+1 to get (k+1)²",
+      "Assume sum to k is k²; add k+1 to get (k+1)²",
+      "Assume sum to k is 2k; add 1",
+      "Prove k²=0"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Assume sum to k is k²; add 2k+1 to get (k+1)²",
+    "explanation": "k²+(2k+1)=(k+1)².",
+    "skill": "Construct induction step"
+  },
+  {
+    "id": "FL091",
+    "level": "Hard",
+    "topic": "Mathematical induction",
+    "question": "To prove 2ⁿ ≥ n+1 for n≥0, assume 2ᵏ ≥ k+1. Which inequality completes the step?",
+    "options": [
+      "2ᵏ⁺¹ ≥ 2(k+1) ≥ k+2",
+      "2ᵏ⁺¹ ≤ k",
+      "2ᵏ = k+1",
+      "2ᵏ⁺¹ = k+1"
+    ],
+    "answer_index": 0,
+    "correct_answer": "2ᵏ⁺¹ ≥ 2(k+1) ≥ k+2",
+    "explanation": "Double the induction hypothesis; 2k+2≥k+2 for k≥0.",
+    "skill": "Use induction inequality"
+  },
+  {
+    "id": "FL092",
+    "level": "Hard",
+    "topic": "Mathematical induction",
+    "question": "A student proves P(1) and P(k)→P(k+2) for all k≥1. Which conclusion is justified?",
+    "options": [
+      "P(n) for all positive n",
+      "P(n) for all odd positive n, but not necessarily even n",
+      "P(n) for all even positive n only",
+      "No value beyond P(1)"
+    ],
+    "answer_index": 1,
+    "correct_answer": "P(n) for all odd positive n, but not necessarily even n",
+    "explanation": "Starting from 1, steps of two establish the odd cases only.",
+    "skill": "Analyze induction step size"
+  },
+  {
+    "id": "FL093",
+    "level": "Hard",
+    "topic": "Mathematical induction",
+    "question": "A claim is for all integers n≥4. The student checks P(1), then proves P(k)→P(k+1) for k≥4. What is the issue?",
+    "options": [
+      "No issue; P(1) is enough",
+      "The base case should be P(4)",
+      "The inductive step should start at k=1",
+      "Induction cannot prove integer statements"
+    ],
+    "answer_index": 1,
+    "correct_answer": "The base case should be P(4)",
+    "explanation": "The base case must match the domain's first value, n=4.",
+    "skill": "Detect base-case mismatch"
+  },
+  {
+    "id": "FL094",
+    "level": "Hard",
+    "topic": "Mathematical induction",
+    "question": "Which is the key inductive hypothesis when proving 1+2+…+n=n(n+1)/2?",
+    "options": [
+      "Assume 1+…+k=k(k+1)/2",
+      "Assume the formula for every integer without proof",
+      "Assume P(k+1)",
+      "Assume k=0 always"
+    ],
+    "answer_index": 0,
+    "correct_answer": "Assume 1+…+k=k(k+1)/2",
+    "explanation": "The hypothesis assumes the statement at an arbitrary k in the domain.",
+    "skill": "Identify induction hypothesis"
+  },
+  {
+    "id": "FL095",
+    "level": "Hard",
+    "topic": "Mathematical induction",
+    "question": "If P(0) is true and P(k)→P(k+1) for all k≥0, what follows?",
+    "options": [
+      "P(n) for all n≥0",
+      "P(n) for n<0 only",
+      "P(n) only for even n",
+      "Only P(0)"
+    ],
+    "answer_index": 0,
+    "correct_answer": "P(n) for all n≥0",
+    "explanation": "The induction chain covers every nonnegative integer.",
+    "skill": "Apply induction domain"
+  },
+  {
+    "id": "FL096",
+    "level": "Hard",
+    "topic": "Normal forms",
+    "question": "Convert p→(q∧r) to CNF.",
+    "options": [
+      "(¬p∨q)∧(¬p∨r)",
+      "¬p∧q∧r",
+      "p∨q∨r",
+      "(p∧q)∨r"
+    ],
+    "answer_index": 0,
+    "correct_answer": "(¬p∨q)∧(¬p∨r)",
+    "explanation": "Rewrite as ¬p∨(q∧r), then distribute to get (¬p∨q)∧(¬p∨r).",
+    "skill": "Convert to CNF"
+  },
+  {
+    "id": "FL097",
+    "level": "Hard",
+    "topic": "Normal forms",
+    "question": "Convert (p∨q)→r to CNF.",
+    "options": [
+      "(¬p∨r)∧(¬q∨r)",
+      "(p∨q)∧r",
+      "¬p∨q∨r",
+      "p∧q∧r"
+    ],
+    "answer_index": 0,
+    "correct_answer": "(¬p∨r)∧(¬q∨r)",
+    "explanation": "The implication becomes ¬(p∨q)∨r = (¬p∧¬q)∨r; distributing gives the answer.",
+    "skill": "Convert implication to CNF"
+  },
+  {
+    "id": "FL098",
+    "level": "Hard",
+    "topic": "Normal forms",
+    "question": "Which is the DNF equivalent of p ∧ (q∨r)?",
+    "options": [
+      "(p∧q)∨(p∧r)",
+      "(p∨q)∧(p∨r)",
+      "p∨q∨r",
+      "p∧q∧r"
+    ],
+    "answer_index": 0,
+    "correct_answer": "(p∧q)∨(p∧r)",
+    "explanation": "Distribute conjunction over disjunction to get a disjunction of conjunctions.",
+    "skill": "Convert to DNF"
+  },
+  {
+    "id": "FL099",
+    "level": "Hard",
+    "topic": "Normal forms",
+    "question": "Which formula is already in both CNF and DNF?",
+    "options": [
+      "p",
+      "p∨q",
+      "p∧q",
+      "(p∨q)∧r"
+    ],
+    "answer_index": 0,
+    "correct_answer": "p",
+    "explanation": "A single literal can be viewed as a one-literal clause and a one-literal term.",
+    "skill": "Recognize canonical forms"
+  },
+  {
+    "id": "FL100",
+    "level": "Hard",
+    "topic": "Normal forms",
+    "question": "Which is the correct CNF for ¬(p∨q)∨r?",
+    "options": [
+      "(¬p∨r)∧(¬q∨r)",
+      "¬p∧¬q∧r",
+      "(p∨r)∧(q∨r)",
+      "¬p∨¬q∨r"
+    ],
+    "answer_index": 0,
+    "correct_answer": "(¬p∨r)∧(¬q∨r)",
+    "explanation": "By De Morgan, the formula is (¬p∧¬q)∨r; distribute r across the conjunction.",
+    "skill": "Distribute to CNF"
+  },
+  {
+    "id": "FL101",
+    "level": "Hard",
+    "topic": "Basic connectives",
+    "question": "If (p→q) is false, what is the value of ¬p∨q?",
+    "options": [
+      "True",
+      "False",
+      "Depends on r",
+      "Cannot be determined"
+    ],
+    "answer_index": 1,
+    "correct_answer": "False",
+    "explanation": "p→q is equivalent to ¬p∨q, so if the implication is false, this expression is false.",
+    "skill": "Connect equivalent forms"
+  },
+  {
+    "id": "FL102",
+    "level": "Hard",
+    "topic": "Basic connectives",
+    "question": "Which formula is equivalent to ¬(p↔q)?",
+    "options": [
+      "(p∧¬q)∨(¬p∧q)",
+      "(p∧q)∨(¬p∧¬q)",
+      "p∧q",
+      "p∨q"
+    ],
+    "answer_index": 0,
+    "correct_answer": "(p∧¬q)∨(¬p∧q)",
+    "explanation": "Negating a biconditional means the two truth values differ, i.e. exclusive OR.",
+    "skill": "Negate biconditional"
+  },
+  {
+    "id": "FL103",
+    "level": "Hard",
+    "topic": "Logical implication",
+    "question": "If q → p is true, which interpretation is correct?",
+    "options": [
+      "p is necessary for q",
+      "p is sufficient for q",
+      "q is necessary for p",
+      "p and q are equivalent"
+    ],
+    "answer_index": 0,
+    "correct_answer": "p is necessary for q",
+    "explanation": "q→p means whenever q holds, p must hold; therefore p is a necessary condition for q.",
+    "skill": "Interpret necessary condition"
+  },
+  {
+    "id": "FL104",
+    "level": "Hard",
+    "topic": "Rules of inference",
+    "question": "Given p→q, q→r, and ¬r, which pair is guaranteed?",
+    "options": [
+      "p and q",
+      "¬p and ¬q",
+      "p and ¬q",
+      "q and r"
+    ],
+    "answer_index": 1,
+    "correct_answer": "¬p and ¬q",
+    "explanation": "From ¬r and q→r infer ¬q; from ¬q and p→q infer ¬p.",
+    "skill": "Chain modus tollens"
+  },
+  {
+    "id": "FL105",
+    "level": "Hard",
+    "topic": "Rules of inference",
+    "question": "Premises are p∨q, p→r, q→r. What conclusion follows?",
+    "options": [
+      "r",
+      "¬r",
+      "p∧q",
+      "¬p∧¬q"
+    ],
+    "answer_index": 0,
+    "correct_answer": "r",
+    "explanation": "Whichever disjunct is true, its corresponding implication yields r.",
+    "skill": "Reason by cases"
+  },
+  {
+    "id": "FL106",
+    "level": "Hard",
+    "topic": "Laws of logic",
+    "question": "Simplify (p∨q) ∧ (¬p∨q).",
+    "options": [
+      "p",
+      "q",
+      "¬q",
+      "p∧q"
+    ],
+    "answer_index": 1,
+    "correct_answer": "q",
+    "explanation": "Distribute: (p∨q)∧(¬p∨q) ≡ q∨(p∧¬p) ≡ q.",
+    "skill": "Simplify using distributivity"
+  },
+  {
+    "id": "FL107",
+    "level": "Hard",
+    "topic": "Laws of logic",
+    "question": "Which expression is equivalent to (p→q) ∨ (p→r)?",
+    "options": [
+      "¬p∨q∨r",
+      "p∨q∨r",
+      "¬p∧q∧r",
+      "p→(q∧r)"
+    ],
+    "answer_index": 0,
+    "correct_answer": "¬p∨q∨r",
+    "explanation": "Rewrite both implications: (¬p∨q)∨(¬p∨r) = ¬p∨q∨r.",
+    "skill": "Simplify compound implications"
+  },
+  {
+    "id": "FL108",
+    "level": "Hard",
+    "topic": "Quantifiers",
+    "question": "Over the integers, what does ∀x (x²≥0) evaluate to?",
+    "options": [
+      "True",
+      "False",
+      "Only true for x≥0",
+      "Undefined"
+    ],
+    "answer_index": 0,
+    "correct_answer": "True",
+    "explanation": "The square of every integer is nonnegative.",
+    "skill": "Evaluate quantified statement"
+  },
+  {
+    "id": "FL109",
+    "level": "Hard",
+    "topic": "Mathematical induction",
+    "question": "Why is checking P(1), P(2), and P(3) alone insufficient to prove P(n) for all n≥1?",
+    "options": [
+      "Because base cases are never allowed",
+      "Because infinitely many later values remain unless a general step is proved",
+      "Because induction only works for zero",
+      "Because three is not an integer"
+    ],
+    "answer_index": 1,
+    "correct_answer": "Because infinitely many later values remain unless a general step is proved",
+    "explanation": "A finite number of examples cannot establish an infinite claim; a general inductive step is needed.",
+    "skill": "Understand proof logic"
+  }
+]
