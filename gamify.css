@@ -1,0 +1,54 @@
+/* Loaded AFTER styles.css so these rules override it. */
+:root{--gold:#f2b84b;--grad:linear-gradient(135deg,#2a8a6c,#155640);--card-r:16px}
+body{background:radial-gradient(900px 420px at 85% -80px,#e3f1e6 0,transparent 70%),var(--paper)}
+.panel,.stat-card,.attempt-row,.resource-card,.review-card{border-radius:var(--card-r)}
+.panel,.stat-card,.resource-card{box-shadow:0 1px 0 rgba(30,48,39,.04),0 10px 28px rgba(30,48,39,.05)}
+.stat-card{transition:transform .2s,box-shadow .2s}
+.stat-card:hover,.resource-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.stat-number{font-size:32px}
+.button{border-radius:10px}
+.button-primary{background:var(--grad);box-shadow:0 6px 16px rgba(32,115,91,.28)}
+.button-primary:hover{background:var(--grad);box-shadow:0 9px 22px rgba(32,115,91,.36)}
+.nav-item{border-radius:10px;transition:background .15s,padding .15s}
+.nav-item:hover{padding-left:15px}
+.nav-item.active{background:var(--grad);color:#fff}
+.nav-item.active .nav-icon{color:#fff}
+.brand-mark{border-radius:11px;box-shadow:0 5px 12px rgba(32,115,91,.35)}
+.bar-fill{background:linear-gradient(90deg,#7fc3a0,#20735b);position:relative}
+.bar-track{height:9px}
+.quiz-progress{height:8px;border-radius:8px}
+.quiz-progress div{background:linear-gradient(90deg,var(--gold),#20735b);border-radius:8px}
+.quiz-card{border-radius:20px;padding:34px}
+.answer-option{border-radius:12px;border-width:2px;padding:14px 16px;transition:transform .15s,border-color .15s,background .15s}
+.answer-option:hover{transform:translateX(4px)}
+.answer-option.selected{transform:translateX(6px);box-shadow:0 6px 16px rgba(32,115,91,.15);animation:pick .25s}
+@keyframes pick{50%{transform:translateX(6px) scale(1.015)}}
+.question-dot.current{box-shadow:0 0 0 3px #bfe0cf}
+.result-ring{border-color:var(--gold);color:#8a6410;background:#fff8e4;animation:pop .6s cubic-bezier(.2,1.6,.4,1)}
+@keyframes pop{from{transform:scale(.4);opacity:0}}
+.auth-aside{background:linear-gradient(160deg,#dcefe1,#b9dcc7)}
+
+/* Gamification card */
+.game-card{background:linear-gradient(120deg,#17503d,#20735b 70%,#2f8f70);color:#fff;border-radius:20px;padding:22px 24px;margin-bottom:18px;box-shadow:0 14px 34px rgba(23,80,61,.28)}
+.game-level{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.game-level strong{font:700 18px var(--display);display:block}
+.game-level small{font-size:11px;color:#c6e6d6}
+.level-orb{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font:800 22px var(--display);background:radial-gradient(circle at 30% 25%,#ffe29a,var(--gold));color:#5a3d05;box-shadow:0 0 0 4px rgba(255,255,255,.2)}
+.streak-chip{margin-left:auto;background:rgba(255,255,255,.14);border-radius:30px;padding:8px 13px;font-size:12px;font-weight:700;opacity:.75}
+.streak-chip.on{background:#ffefc2;color:#7a4a05;opacity:1}
+.xp-track{height:12px;border-radius:12px;background:rgba(0,0,0,.25);margin:18px 0 8px;overflow:hidden}
+.xp-fill{height:100%;border-radius:12px;background:linear-gradient(90deg,#ffe29a,var(--gold));transition:width .8s cubic-bezier(.2,.8,.2,1)}
+.xp-note{font-size:11px;color:#c6e6d6;margin:0 0 16px}
+.badge-row{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.badge{background:rgba(255,255,255,.1);border-radius:12px;padding:10px 4px;text-align:center;filter:grayscale(1);opacity:.5;transition:transform .2s}
+.badge span{font-size:22px;display:block}
+.badge small{font-size:9px;display:block;margin-top:4px}
+.badge.earned{filter:none;opacity:1;background:rgba(255,255,255,.2)}
+.badge.earned:hover{transform:translateY(-3px) rotate(-3deg)}
+
+/* Confetti */
+.confetti{position:fixed;top:-14px;width:9px;height:14px;border-radius:2px;z-index:60;pointer-events:none;animation:fall var(--d) ease-in forwards}
+@keyframes fall{to{transform:translate(var(--x),105vh) rotate(var(--r))}}
+
+@media(max-width:760px){.badge-row{grid-template-columns:repeat(3,1fr)}.streak-chip{margin-left:0}.quiz-card{padding:22px 16px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
